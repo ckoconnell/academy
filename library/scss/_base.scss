@@ -1,0 +1,870 @@
+
+/*********************
+SITE VARIABLES
+*********************/
+
+// Colours
+
+$link-color: #171717;
+$link-hover: #171717;
+$border-color: #333;
+
+
+// Fonts
+
+$body-font: Avenir, Arial, sans-serif;
+
+
+// Breakpoints
+
+
+/*********************
+MIXINS
+*********************/
+
+@mixin transition($transition...) {
+  $prefixes:      ("-webkit-", "" );
+  @each $prefix in $prefixes {
+    #{$prefix}transition: $transition;
+  }
+}
+
+@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+  background-color: $to;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background-image: -webkit-linear-gradient(top, $from, $to);
+  background-image: -moz-linear-gradient(top, $from, $to);
+  background-image: -o-linear-gradient(top, $from, $to);
+  background-image: linear-gradient(to bottom, $from, $to);
+}
+
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing:    $type;
+  -ms-box-sizing:     $type;
+  box-sizing:         $type;
+}
+
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 0 !important;
+
+}
+
+body {
+  font-family: Avenir, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #171717;
+  background-color: #999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -32px !important;
+  background: url('http://localhost/academywp/wp-content/uploads/2016/01/academybg-1.jpg') no-repeat;
+  background-size: auto 120%;
+  background-position: center -32px;
+}
+
+
+/********************
+WORDPRESS BODY CLASSES
+********************/
+
+.rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
+.home {}                          /* home page */
+.blog {}                          /* blog template page */
+.archive {}                       /* archive page */
+.date {}                          /* date archive page */
+	.date-paged-1 {}                /* replace the number to the corresponding page number */
+.search {}                        /* search page */
+	.search-results {}              /* search result page */
+	.search-no-results {}           /* no results search page */
+	.search-paged-1 {}              /* individual paged search (i.e. body.search-paged-3) */
+.error404 {}                      /* 404 page */
+.single {}                        /* single post page */
+	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
+	.single-paged-1 {}              /* individual paged single (i.e. body.single-paged-3) */
+.attachment {}                    /* attatchment page */
+	.attachmentid-1 {}              /* individual attatchment page (i.e. body.attachmentid-763) */
+	.attachment-mime-type {}        /* style mime type pages */
+.author {}                        /* author page */
+	.author-nicename {}             /* user nicename (i.e. body.author-samueladams) */
+	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
+.category {}                      /* category page */
+	.category-1 {}                  /* individual category page (i.e. body.category-6) */
+	.category-paged-1 {}            /* replace the number to the corresponding page number */
+.tag {}                           /* tag page */
+	.tag-slug {}                    /* individual tag page (i.e. body.tag-news) */
+	.tag-paged-1 {}                 /* replace the number to the corresponding page number */
+.page-template {}                 /* custom page template page */
+	.page-template-page-php {}      /* individual page template (i.e. body.page-template-contact-php */
+	.page-paged-1 {}                /* replace the number to the corresponding page number */
+	.page-parent {}                 /* parent page template */
+	.page-child {}                  /* child page template */
+	.parent-pageid-1 {}             /* replace the number to the corresponding page number */
+.logged-in {}                     /* if user is logged in */
+.paged {}                         /* paged items like search results or archives */
+	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+section {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.gridWrap {
+  width: 100%;
+  max-width: 930px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: white;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 930px) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .featureImageWrap {
+    height: 450px;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+
+    h1 {
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase;
+      vertical-align: bottom;
+      bottom: -3px;
+      font-size: 70px;
+      line-height: 50px;
+      position: absolute;
+      margin-left: 30px;
+      letter-spacing: -3.5px !important;
+
+    }
+  }
+}
+
+.headerTop {
+  width: 100%;
+  height: 170px;
+  position: relative;
+  display: inline-block;
+  padding-top: 15px;
+
+  .gridWrap {
+    background: none;
+    padding: 15px 0 0 0;
+  }
+
+  .logoWrap {
+    float: left;
+    width: 400px;
+    vertical-align: top;
+
+    h1 {
+      display: inline-block;
+      width: 250px;
+      vertical-align: top;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: .85em;
+      font-size: 2.9em;
+      letter-spacing: -4px;
+      text-align: right;
+
+      .headerEvent {
+        letter-spacing: 0px;
+
+      }
+
+      .headerAcademy {
+        letter-spacing: -4px;
+      }
+    }
+
+    .logo {
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      border-radius: 75px;
+      background: #171717;
+      margin-left: 15px;
+
+    }
+  }
+
+  .eventDetails {
+    width: 310px;
+    position: relative;
+    display: inline-block;
+
+    h3 {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: .8em;
+      font-size: 1.2em;
+      font-weight: 900;
+      border-bottom: 1px solid #171717;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+
+    h5 {
+      font-weight: 900;
+      font-size: 1.2em;
+      line-height: .9em;
+      padding-top: 15px;
+      text-align: center;
+      letter-spacing: 0px;
+    }
+  }
+
+  .quickNav {
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+
+    ul {
+
+      li {
+        box-sizing: border-box;
+        display: inline-block;
+        float: right;
+        width: 48%;
+        height: 55px;
+        border: 1px solid #171717;
+        margin: 2px 2px;
+        padding: 10px 15px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: .8em;
+        font-size: .7em;
+      }
+    }
+  }
+
+}
+
+
+.nav {
+
+  .gridWrap {
+    background: black;
+    padding: 0 0 0 0;
+  }
+}
+
+
+
+/*********************
+LINK STYLES
+*********************/
+
+a, a:visited {
+	color: $link-color;
+
+	/* on hover */
+	&:hover, &:focus {
+		color: $link-hover;
+	}
+
+	/* on click */
+	&:active {
+
+	}
+
+	/* mobile tap color */
+	&:link {
+		/*
+		this highlights links on iPhones/iPads.
+		so it basically works like the :hover selector
+		for mobile devices.
+		*/
+		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+	}
+}
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	text-rendering: optimizelegibility;
+	font-weight: 500;
+	/*
+	if you're going to use webfonts, be sure to check your weights
+	http://css-tricks.com/watch-your-font-weight/
+	*/
+
+	/* removing text decoration from all headline links */
+	a {
+		text-decoration: none;
+	}
+}
+
+h1, .h1 {
+	font-size: 2.5em;
+	line-height: 1.333em;
+}
+
+h2, .h2 {
+	font-size: 1.75em;
+	line-height: 1.4em;
+	margin-bottom: 0.375em;
+}
+
+h3, .h3 {
+	font-size: 1.125em;
+}
+
+h4, .h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+h5, .h5 {
+	font-size: 0.846em;
+	line-height: 2.09em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+p {
+
+}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+nav {
+  width: 100%;
+  background: black;
+  padding: 0 0 0 0;
+  text-align: center;
+
+  ul {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+    li {
+      width: auto;
+      display: inline-block;
+      margin: 0;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: .8em;
+
+
+      a {
+        width: auto;
+        min-width: 110px;
+        display: inline-block;
+        position: relative;
+        color: white !important;
+        text-decoration: none;
+        font-size: .75em;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 15px 7px;
+      }
+
+      a:hover {
+        background: #333;
+        transition: all 1s;
+      }
+    }
+  }
+
+}
+
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {
+	margin-top: 1.5em;
+}
+
+		.hentry {
+			background-color: #FFF;
+			border-radius: 3px;
+			margin-bottom: 1.5em;
+			border: 1px solid $border-color;
+
+			header {
+				border-bottom: 1px solid #ccc;
+				padding: 1.5em;
+			}
+
+			footer {
+				padding: 1.5em;
+				border-top: 1px solid #ccc;
+
+				p {
+					margin: 0;
+				}
+			}
+
+		} /* end .hentry */
+
+		.single-title,
+		.page-title,
+		.entry-title {
+			margin: 0;
+		}
+
+		.single-title {}
+
+		.page-title {}
+
+		.entry-title {}
+
+		.archive-title {}
+
+		/* want to style individual post classes? Booya! */
+		.post-id {}         /* post by id (i.e. post-3) */
+		.post {}            /* general post style */
+		.page {}            /* general article on a page style */
+		.attachment {}      /* general style on an attatchment */
+		.sticky {}          /* sticky post style */
+		.hentry {}          /* hentry class */
+		.category-slug {}   /* style by category (i.e. category-videos) */
+		.tag-slug {}        /* style by tag (i.e. tag-news) */
+
+		/* post meta */
+		.byline {
+			color: #ccc;
+			font-style: italic;
+			margin: 0;
+
+			time {}
+		}
+
+		/* entry content */
+		.entry-content {
+			padding: 1.5em 1.5em 0;
+            padding-bottom: 90px;
+
+          h3 {
+            font-size: 1.2em;
+            font-weight: 300;
+            line-height: 1.4em;
+            width: 65%;
+            margin-left: 15px;
+            margin-bottom: 30px;
+          }
+
+            .seminarWrap {
+              margin-left: 30px;
+              width: 60%;
+
+              h1 {
+                color: teal;
+                font-weight: 600;
+                font-size: 1.1em;
+                margin-top: 20px;
+              }
+
+              .seminarDetails {
+
+              }
+
+              p {
+                padding-left: 0;
+                margin: 0 0 0 0;
+              }
+            }
+
+			p {
+				margin: 0 0 1.5em;
+              padding-left: 15px;
+              font-size: .9em;
+			}
+
+
+			ul, ol, table, dl {}
+
+			ul, ol {
+
+				li {}
+
+			}
+
+			ul {
+
+				li {}
+
+			}
+
+			ol {
+
+				li {}
+
+			}
+
+			table {
+				width: 100%;
+				border: 1px solid #999;
+				margin-bottom: 1.5em;
+
+				caption {
+					margin: 0 0 7px;
+					font-size: 0.75em;
+					color: #ccc;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+				}
+			}
+
+			tr {
+				border-bottom: 1px solid #999;
+
+				&:nth-child(even) {
+					background-color: #ccc;
+				}
+			}
+
+			td {
+				padding: 7px;
+				border-right: 1px solid #999;
+
+				&:last-child {
+					border-right: 0;
+				}
+			}
+
+			th {
+				background-color: #ccc;
+				border-bottom: 1px solid #999;
+				border-right: 1px solid #999;
+
+				&:last-child {
+					border-right: 0;
+				}
+			}
+
+			blockquote {
+				margin: 0 0 1.5em 0.75em;
+				padding: 0 0 0 0.75em;
+				border-left: 3px solid teal;
+				font-style: italic;
+				color: #ccc;
+
+				&:before {}
+
+			}
+
+			dl {}
+
+			dt {}
+
+			dd {
+				margin-left: 0;
+				font-size: 0.9em;
+				color: #787878;
+				margin-bottom: 1.5em;
+			}
+
+			img {
+				margin: 0 0 1.5em 0;
+				max-width: 100%;
+				height: auto;
+			}
+
+			.alignleft, img.alignleft {}
+			.alignright, img.alignright {}
+			.aligncenter, img.aligncenter {}
+
+			.size-auto,
+			.size-full,
+			.size-large,
+			.size-medium,
+			.size-thumbnail {
+				max-width: 100%;
+				height: auto;
+			}
+
+			pre {
+				background: #000;
+				color: #ccc;
+				font-size: 0.9em;
+				padding: 1.5em;
+				margin: 0 0 1.5em;
+				border-radius: 3px;
+			}
+
+		} /* end .entry-content */
+
+		.wp-caption {
+			max-width: 100%;
+			background: #eee;
+			padding: 5px;
+
+			/* images inside wp-caption */
+			img {
+				max-width: 100%;
+				margin-bottom: 0;
+				width: 100%;
+			}
+
+			p.wp-caption-text {
+				font-size: 0.85em;
+				margin: 4px 0 7px;
+				text-align: center;
+			}
+
+		} /* end .wp-caption */
+
+		/* image gallery styles */
+		.gallery {
+
+			dl {
+
+				a {}
+			}
+
+			dt {}
+
+			dd {}
+
+		} /* end .gallery */
+
+		/* gallery caption styles */
+		.gallery-caption {}
+
+		.size-full {}
+		.size-large {}
+		.size-medium {}
+		.size-thumbnail {}
+
+	// the tag output
+	.tags {
+		margin: 0;
+	}
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {}
+
+	.widgettitle {}
+
+	.widget {
+
+		ul {
+
+			li {
+
+				&:first-child {}
+
+				&:last-child {}
+
+				a {}
+
+				/* deep nesting */
+				ul {}
+
+			}
+
+		}
+
+	}
+
+	.no-widgets {
+		background-color: #FFF;
+		padding: 1.5em;
+		text-align: center;
+		border: 1px solid $border-color;
+		border-radius: 2px;
+		margin-bottom: 1.5em;
+	}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+    text-transform: uppercase;
+	color: #ccc;
+    height: auto;
+    display: block;
+
+  .gridWrap {
+    background: black !important;
+    padding: 15px;
+    height: 450px;
+  }
+
+  .footerLinks {
+    float: right;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+
+    .footerDetails {
+      width: 30%;
+      height: 100%;
+      position: relative;
+      display: inline-block;
+      float: left;
+
+      .logoWrap {
+        padding-top: 10px;
+        display: inline-block;
+
+        h1 {
+          display: inline-block;
+          vertical-align: top;
+          font-weight: 900;
+          text-transform: uppercase;
+          line-height: .85em;
+          font-size: 2em;
+          letter-spacing: -4px;
+          text-align: right;
+          color: white !important;
+
+          .headerEvent {
+            letter-spacing: 0px;
+
+          }
+
+          .headerAcademy {
+            letter-spacing: -4px;
+          }
+        }
+
+        .logo {
+          display: inline-block;
+          width: 90px;
+          padding-left: 5px;
+          margin-top: -4px;
+        }
+      }
+
+      h3 {
+        font-weight: 600;
+        color: white;
+        line-height: 1em;
+        font-size: .9em;
+        text-align: left;
+
+        margin-top: 0px;
+      }
+    }
+
+
+    ul {
+      width: 65%;
+      float: right;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-size: .7em;
+      }
+
+      li {
+        display: inline-block;
+        width: 190px;
+      }
+    }
+  }
+
+  .sponsorWrap {
+    padding: 30px 0;
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: 100;
+      text-align: center;
+      font-size: .9em;
+
+    }
+
+    ul {
+      text-align: center;
+
+      a {
+        display: inline-block;
+        width: 130px;
+        height: 150px;
+        padding: 35px 15px 0;
+        margin: .5em .5em;
+
+      }
+
+      li {
+        width: 100%;
+        height: 100%;
+
+      }
+
+      .arcteryx {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png') no-repeat;
+        background-position: center 0px;
+        background-size: 120px;
+      }
+
+      .montblanc {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png') no-repeat;
+        background-position: center 0px;
+        background-size: 110px;
+      }
+
+      .gore {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png') no-repeat;
+        background-position: center -10px;
+        background-size: 140px;
+      }
+
+      .petzl {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png') no-repeat;
+        background-position: center 0px;
+        background-size: 110px;
+      }
+
+      .msr {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png') no-repeat;
+        background-position: center 0px;
+        background-size: 120px;
+      }
+    }
+  }
+
+  p {
+    font-weight: 900;
+    font-size: .8em;
+  }
+}
+

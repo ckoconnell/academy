@@ -1,0 +1,720 @@
+/*********************
+SITE VARIABLES
+*********************/
+/*********************
+MIXINS
+*********************/
+/*********************
+GENERAL STYLES
+*********************/
+/* line 54, ../scss/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 60, ../scss/_base.scss */
+html {
+  margin-top: 0 !important;
+}
+
+/* line 65, ../scss/_base.scss */
+body {
+  font-family: Avenir, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #171717;
+  background-color: #999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -32px !important;
+  background: url("http://localhost/academywp/wp-content/uploads/2016/01/academybg-1.jpg") no-repeat;
+  background-size: auto 120%;
+  background-position: center -32px;
+}
+
+/********************
+WORDPRESS BODY CLASSES
+********************/
+/* for sites that are read right to left (i.e. hebrew) */
+/* home page */
+/* blog template page */
+/* archive page */
+/* date archive page */
+/* replace the number to the corresponding page number */
+/* search page */
+/* search result page */
+/* no results search page */
+/* individual paged search (i.e. body.search-paged-3) */
+/* 404 page */
+/* single post page */
+/* individual post page by id (i.e. body.postid-73) */
+/* individual paged single (i.e. body.single-paged-3) */
+/* attatchment page */
+/* individual attatchment page (i.e. body.attachmentid-763) */
+/* style mime type pages */
+/* author page */
+/* user nicename (i.e. body.author-samueladams) */
+/* paged author archives (i.e. body.author-paged-4) for page 4 */
+/* category page */
+/* individual category page (i.e. body.category-6) */
+/* replace the number to the corresponding page number */
+/* tag page */
+/* individual tag page (i.e. body.tag-news) */
+/* replace the number to the corresponding page number */
+/* custom page template page */
+/* individual page template (i.e. body.page-template-contact-php */
+/* replace the number to the corresponding page number */
+/* parent page template */
+/* child page template */
+/* replace the number to the corresponding page number */
+/* if user is logged in */
+/* paged items like search results or archives */
+/* individual paged (i.e. body.paged-3) */
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+/* line 124, ../scss/_base.scss */
+section {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* line 132, ../scss/_base.scss */
+.gridWrap {
+  width: 100%;
+  max-width: 930px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: white;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 930px) {
+  /* line 132, ../scss/_base.scss */
+  .gridWrap {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* line 146, ../scss/_base.scss */
+.gridWrap .featureImageWrap {
+  height: 450px;
+  background-size: cover;
+  background-position: bottom center;
+  position: relative;
+}
+/* line 152, ../scss/_base.scss */
+.gridWrap .featureImageWrap h1 {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  bottom: -3px;
+  font-size: 70px;
+  line-height: 50px;
+  position: absolute;
+  margin-left: 30px;
+  letter-spacing: -3.5px !important;
+}
+
+/* line 168, ../scss/_base.scss */
+.headerTop {
+  width: 100%;
+  height: 170px;
+  position: relative;
+  display: inline-block;
+  padding-top: 15px;
+}
+/* line 175, ../scss/_base.scss */
+.headerTop .gridWrap {
+  background: none;
+  padding: 15px 0 0 0;
+}
+/* line 180, ../scss/_base.scss */
+.headerTop .logoWrap {
+  float: left;
+  width: 400px;
+  vertical-align: top;
+}
+/* line 185, ../scss/_base.scss */
+.headerTop .logoWrap h1 {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: .85em;
+  font-size: 2.9em;
+  letter-spacing: -4px;
+  text-align: right;
+}
+/* line 196, ../scss/_base.scss */
+.headerTop .logoWrap h1 .headerEvent {
+  letter-spacing: 0px;
+}
+/* line 201, ../scss/_base.scss */
+.headerTop .logoWrap h1 .headerAcademy {
+  letter-spacing: -4px;
+}
+/* line 206, ../scss/_base.scss */
+.headerTop .logoWrap .logo {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 75px;
+  background: #171717;
+  margin-left: 15px;
+}
+/* line 217, ../scss/_base.scss */
+.headerTop .eventDetails {
+  width: 310px;
+  position: relative;
+  display: inline-block;
+}
+/* line 222, ../scss/_base.scss */
+.headerTop .eventDetails h3 {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: .8em;
+  font-size: 1.2em;
+  font-weight: 900;
+  border-bottom: 1px solid #171717;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+/* line 234, ../scss/_base.scss */
+.headerTop .eventDetails h5 {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: .9em;
+  padding-top: 15px;
+  text-align: center;
+  letter-spacing: 0px;
+}
+/* line 244, ../scss/_base.scss */
+.headerTop .quickNav {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 220px;
+}
+/* line 252, ../scss/_base.scss */
+.headerTop .quickNav ul li {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  width: 48%;
+  height: 55px;
+  border: 1px solid #171717;
+  margin: 2px 2px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: .8em;
+  font-size: .7em;
+}
+
+/* line 274, ../scss/_base.scss */
+.nav .gridWrap {
+  background: black;
+  padding: 0 0 0 0;
+}
+
+/*********************
+LINK STYLES
+*********************/
+/* line 286, ../scss/_base.scss */
+a, a:visited {
+  color: #171717;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+/* line 290, ../scss/_base.scss */
+a:hover, a:focus, a:visited:hover, a:visited:focus {
+  color: #171717;
+}
+/* line 300, ../scss/_base.scss */
+a:link, a:visited:link {
+  /*
+  this highlights links on iPhones/iPads.
+  so it basically works like the :hover selector
+  for mobile devices.
+  */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+/* line 314, ../scss/_base.scss */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  text-rendering: optimizelegibility;
+  font-weight: 500;
+  /*
+  if you're going to use webfonts, be sure to check your weights
+  http://css-tricks.com/watch-your-font-weight/
+  */
+  /* removing text decoration from all headline links */
+}
+/* line 323, ../scss/_base.scss */
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+  text-decoration: none;
+}
+
+/* line 328, ../scss/_base.scss */
+h1, .h1 {
+  font-size: 2.5em;
+  line-height: 1.333em;
+}
+
+/* line 333, ../scss/_base.scss */
+h2, .h2 {
+  font-size: 1.75em;
+  line-height: 1.4em;
+  margin-bottom: 0.375em;
+}
+
+/* line 339, ../scss/_base.scss */
+h3, .h3 {
+  font-size: 1.125em;
+}
+
+/* line 343, ../scss/_base.scss */
+h4, .h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+/* line 348, ../scss/_base.scss */
+h5, .h5 {
+  font-size: 0.846em;
+  line-height: 2.09em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+/* line 364, ../scss/_base.scss */
+nav {
+  width: 100%;
+  background: black;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+/* line 370, ../scss/_base.scss */
+nav ul {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 376, ../scss/_base.scss */
+nav ul li {
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .8em;
+}
+/* line 385, ../scss/_base.scss */
+nav ul li a {
+  width: auto;
+  min-width: 110px;
+  display: inline-block;
+  position: relative;
+  color: white !important;
+  text-decoration: none;
+  font-size: .75em;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 15px 7px;
+}
+/* line 398, ../scss/_base.scss */
+nav ul li a:hover {
+  background: #333;
+  transition: all 1s;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* line 412, ../scss/_base.scss */
+#content {
+  margin-top: 1.5em;
+}
+
+/* line 416, ../scss/_base.scss */
+.hentry {
+  background-color: #FFF;
+  border-radius: 3px;
+  margin-bottom: 1.5em;
+  border: 1px solid #333333;
+}
+/* line 422, ../scss/_base.scss */
+.hentry header {
+  border-bottom: 1px solid #ccc;
+  padding: 1.5em;
+}
+/* line 427, ../scss/_base.scss */
+.hentry footer {
+  padding: 1.5em;
+  border-top: 1px solid #ccc;
+}
+/* line 431, ../scss/_base.scss */
+.hentry footer p {
+  margin: 0;
+}
+
+/* end .hentry */
+/* line 440, ../scss/_base.scss */
+.single-title,
+.page-title,
+.entry-title {
+  margin: 0;
+}
+
+/* want to style individual post classes? Booya! */
+/* post by id (i.e. post-3) */
+/* general post style */
+/* general article on a page style */
+/* general style on an attatchment */
+/* sticky post style */
+/* hentry class */
+/* style by category (i.e. category-videos) */
+/* style by tag (i.e. tag-news) */
+/* post meta */
+/* line 463, ../scss/_base.scss */
+.byline {
+  color: #ccc;
+  font-style: italic;
+  margin: 0;
+}
+
+/* entry content */
+/* line 472, ../scss/_base.scss */
+.entry-content {
+  padding: 1.5em 1.5em 0;
+  padding-bottom: 90px;
+}
+/* line 476, ../scss/_base.scss */
+.entry-content h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.4em;
+  width: 65%;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+/* line 485, ../scss/_base.scss */
+.entry-content .seminarWrap {
+  margin-left: 30px;
+  width: 60%;
+}
+/* line 489, ../scss/_base.scss */
+.entry-content .seminarWrap h1 {
+  color: teal;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+/* line 500, ../scss/_base.scss */
+.entry-content .seminarWrap p {
+  padding-left: 0;
+  margin: 0 0 0 0;
+}
+/* line 506, ../scss/_base.scss */
+.entry-content p {
+  margin: 0 0 1.5em;
+  padding-left: 15px;
+  font-size: .9em;
+}
+/* line 533, ../scss/_base.scss */
+.entry-content table {
+  width: 100%;
+  border: 1px solid #999;
+  margin-bottom: 1.5em;
+}
+/* line 538, ../scss/_base.scss */
+.entry-content table caption {
+  margin: 0 0 7px;
+  font-size: 0.75em;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 547, ../scss/_base.scss */
+.entry-content tr {
+  border-bottom: 1px solid #999;
+}
+/* line 550, ../scss/_base.scss */
+.entry-content tr:nth-child(even) {
+  background-color: #ccc;
+}
+/* line 555, ../scss/_base.scss */
+.entry-content td {
+  padding: 7px;
+  border-right: 1px solid #999;
+}
+/* line 559, ../scss/_base.scss */
+.entry-content td:last-child {
+  border-right: 0;
+}
+/* line 564, ../scss/_base.scss */
+.entry-content th {
+  background-color: #ccc;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+}
+/* line 569, ../scss/_base.scss */
+.entry-content th:last-child {
+  border-right: 0;
+}
+/* line 574, ../scss/_base.scss */
+.entry-content blockquote {
+  margin: 0 0 1.5em 0.75em;
+  padding: 0 0 0 0.75em;
+  border-left: 3px solid teal;
+  font-style: italic;
+  color: #ccc;
+}
+/* line 589, ../scss/_base.scss */
+.entry-content dd {
+  margin-left: 0;
+  font-size: 0.9em;
+  color: #787878;
+  margin-bottom: 1.5em;
+}
+/* line 596, ../scss/_base.scss */
+.entry-content img {
+  margin: 0 0 1.5em 0;
+  max-width: 100%;
+  height: auto;
+}
+/* line 610, ../scss/_base.scss */
+.entry-content .size-auto,
+.entry-content .size-full,
+.entry-content .size-large,
+.entry-content .size-medium,
+.entry-content .size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+/* line 615, ../scss/_base.scss */
+.entry-content pre {
+  background: #000;
+  color: #ccc;
+  font-size: 0.9em;
+  padding: 1.5em;
+  margin: 0 0 1.5em;
+  border-radius: 3px;
+}
+
+/* end .entry-content */
+/* line 626, ../scss/_base.scss */
+.wp-caption {
+  max-width: 100%;
+  background: #eee;
+  padding: 5px;
+  /* images inside wp-caption */
+}
+/* line 632, ../scss/_base.scss */
+.wp-caption img {
+  max-width: 100%;
+  margin-bottom: 0;
+  width: 100%;
+}
+/* line 638, ../scss/_base.scss */
+.wp-caption p.wp-caption-text {
+  font-size: 0.85em;
+  margin: 4px 0 7px;
+  text-align: center;
+}
+
+/* end .wp-caption */
+/* image gallery styles */
+/* end .gallery */
+/* gallery caption styles */
+/* line 669, ../scss/_base.scss */
+.tags {
+  margin: 0;
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+/* line 686, ../scss/_base.scss */
+.widget ul li {
+  /* deep nesting */
+}
+
+/* line 703, ../scss/_base.scss */
+.no-widgets {
+  background-color: #FFF;
+  padding: 1.5em;
+  text-align: center;
+  border: 1px solid #333333;
+  border-radius: 2px;
+  margin-bottom: 1.5em;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+/* line 716, ../scss/_base.scss */
+.footer {
+  text-transform: uppercase;
+  color: #ccc;
+  height: auto;
+  display: block;
+}
+/* line 722, ../scss/_base.scss */
+.footer .gridWrap {
+  background: black !important;
+  padding: 15px;
+  height: 450px;
+}
+/* line 728, ../scss/_base.scss */
+.footer .footerLinks {
+  float: right;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+/* line 734, ../scss/_base.scss */
+.footer .footerLinks .footerDetails {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+/* line 741, ../scss/_base.scss */
+.footer .footerLinks .footerDetails .logoWrap {
+  padding-top: 10px;
+  display: inline-block;
+}
+/* line 745, ../scss/_base.scss */
+.footer .footerLinks .footerDetails .logoWrap h1 {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: .85em;
+  font-size: 2em;
+  letter-spacing: -4px;
+  text-align: right;
+  color: white !important;
+}
+/* line 756, ../scss/_base.scss */
+.footer .footerLinks .footerDetails .logoWrap h1 .headerEvent {
+  letter-spacing: 0px;
+}
+/* line 761, ../scss/_base.scss */
+.footer .footerLinks .footerDetails .logoWrap h1 .headerAcademy {
+  letter-spacing: -4px;
+}
+/* line 766, ../scss/_base.scss */
+.footer .footerLinks .footerDetails .logoWrap .logo {
+  display: inline-block;
+  width: 90px;
+  padding-left: 5px;
+  margin-top: -4px;
+}
+/* line 774, ../scss/_base.scss */
+.footer .footerLinks .footerDetails h3 {
+  font-weight: 600;
+  color: white;
+  line-height: 1em;
+  font-size: .9em;
+  text-align: left;
+  margin-top: 0px;
+}
+/* line 786, ../scss/_base.scss */
+.footer .footerLinks ul {
+  width: 65%;
+  float: right;
+}
+/* line 790, ../scss/_base.scss */
+.footer .footerLinks ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: .7em;
+}
+/* line 797, ../scss/_base.scss */
+.footer .footerLinks ul li {
+  display: inline-block;
+  width: 190px;
+}
+/* line 804, ../scss/_base.scss */
+.footer .sponsorWrap {
+  padding: 30px 0;
+}
+/* line 807, ../scss/_base.scss */
+.footer .sponsorWrap h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  font-size: .9em;
+}
+/* line 815, ../scss/_base.scss */
+.footer .sponsorWrap ul {
+  text-align: center;
+}
+/* line 818, ../scss/_base.scss */
+.footer .sponsorWrap ul a {
+  display: inline-block;
+  width: 130px;
+  height: 150px;
+  padding: 35px 15px 0;
+  margin: .5em .5em;
+}
+/* line 827, ../scss/_base.scss */
+.footer .sponsorWrap ul li {
+  width: 100%;
+  height: 100%;
+}
+/* line 833, ../scss/_base.scss */
+.footer .sponsorWrap ul .arcteryx {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png") no-repeat;
+  background-position: center 0px;
+  background-size: 120px;
+}
+/* line 839, ../scss/_base.scss */
+.footer .sponsorWrap ul .montblanc {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png") no-repeat;
+  background-position: center 0px;
+  background-size: 110px;
+}
+/* line 845, ../scss/_base.scss */
+.footer .sponsorWrap ul .gore {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png") no-repeat;
+  background-position: center -10px;
+  background-size: 140px;
+}
+/* line 851, ../scss/_base.scss */
+.footer .sponsorWrap ul .petzl {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png") no-repeat;
+  background-position: center 0px;
+  background-size: 110px;
+}
+/* line 857, ../scss/_base.scss */
+.footer .sponsorWrap ul .msr {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png") no-repeat;
+  background-position: center 0px;
+  background-size: 120px;
+}
+/* line 865, ../scss/_base.scss */
+.footer p {
+  font-weight: 900;
+  font-size: .8em;
+}
