@@ -172,6 +172,11 @@ section {
   display: inline-block;
   padding-top: 15px;
 
+  @media screen and (max-width: 930px) {
+    height: 250px;
+    padding-top: 45px;
+  }
+
   .gridWrap {
     background: none;
     padding: 15px 0 0 0;
@@ -247,7 +252,17 @@ section {
     display: inline-block;
     width: 220px;
 
+    @media screen and (max-width: 930px) {
+      width: 100%;
+    }
+
     ul {
+
+      @media screen and (max-width: 930px) {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+      }
 
       li {
         box-sizing: border-box;
@@ -262,20 +277,20 @@ section {
         text-transform: uppercase;
         line-height: .8em;
         font-size: .7em;
+
+        @media screen and (max-width: 930px) {
+          width: 23%;
+          text-align: center;
+          float: none;
+          margin: 0 auto;
+        }
+
       }
     }
   }
 
 }
 
-
-.nav {
-
-  .gridWrap {
-    background: black;
-    padding: 0 0 0 0;
-  }
-}
 
 
 
@@ -360,6 +375,14 @@ p {
 /*********************
 NAVIGATION STYLES
 *********************/
+.nav {
+
+  .gridWrap {
+    background: black;
+    padding: 0 0 0 0;
+  }
+}
+
 
 nav {
   width: 100%;
@@ -367,11 +390,53 @@ nav {
   padding: 0 0 0 0;
   text-align: center;
 
+  @media screen and (max-width: 930px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .respBr {
+    @media screen and (max-width: 930px) {
+      display: none;
+    }
+  }
+
+  .mobileSpace {
+    display: none;
+
+    @media screen and (max-width: 930px) {
+      display: inline-block;
+      content: '&nbsp;';
+      position: relative;
+      font-size: .2em;
+    }
+
+  }
+
+  .menuAdd {
+    display: none;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+
+    @media screen and (max-width: 930px) {
+     display: block;
+    }
+  }
+
   ul {
     position: relative;
     width: 100%;
     display: block;
     margin: 0 auto;
+
+    @media screen and (max-width: 930px) {
+      display: none;
+    }
 
     li {
       width: auto;
@@ -380,6 +445,14 @@ nav {
       text-transform: uppercase;
       text-align: center;
       line-height: .8em;
+
+      @media screen and (max-width: 930px) {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 15px;
+
+      }
 
 
       a {
@@ -393,6 +466,11 @@ nav {
         font-weight: 600;
         text-align: center;
         padding: 10px 15px 7px;
+
+        @media screen and (max-width: 930px) {
+          width: 100%;
+          font-size: 18px;
+        }
       }
 
       a:hover {
@@ -402,6 +480,9 @@ nav {
     }
   }
 
+  .makeBlock {
+    display: block;
+  }
 }
 
 

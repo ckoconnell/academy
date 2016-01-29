@@ -6,6 +6,8 @@
 		<title><?php wp_title(''); ?></title>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
@@ -29,7 +31,6 @@
 						<h3>PURSUE YOUR PERFECT MOUNTAIN EXPERIENCE</h3>
 						<h5>Chamonix, FR<br>June 16-19, 2016</h5>
 					</div>
-
 					<div class="quickNav">
 						<ul>
 							<a href="#"><li>Quick Link 1</li></a>
@@ -44,6 +45,7 @@
 			<section class="nav">
 				<div class="gridWrap">
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<div class="menuAdd">Menu</div>
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
 						'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -89,3 +91,9 @@
 				</div>
 			</header>
 			-->
+
+			<script>
+				$(".menuAdd").click(function(){
+					$(".top-nav").toggleClass("makeBlock");
+				});
+			</script>
