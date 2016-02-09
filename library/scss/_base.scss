@@ -10,6 +10,12 @@ $link-hover: #171717;
 $border-color: #333;
 
 
+// Breakpoints
+$gridSize: 930px;
+$tabletBP: 768px;
+$mobileBP: 560px;
+
+
 // Fonts
 
 $body-font: Avenir, Arial, sans-serif;
@@ -131,14 +137,14 @@ section {
 
 .gridWrap {
   width: 100%;
-  max-width: 930px;
+  max-width: $gridSize;
   position: relative;
   display: block;
   margin: 0 auto;
   background: white;
   box-sizing: border-box;
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: $gridSize) {
     width: 100%;
     max-width: 100%;
   }
@@ -172,20 +178,47 @@ section {
   display: inline-block;
   padding-top: 15px;
 
-  @media screen and (max-width: 930px) {
-    height: 250px;
+  @media screen and (max-width: $gridSize) {
+    height: 270px;
     padding-top: 45px;
+  }
+
+  @media screen and (max-width: $tabletBP) {
+    height: 230px;
+    padding-top: 45px;
+  }
+
+  @media screen and (max-width: $mobileBP) {
+    height: 300px;
   }
 
   .gridWrap {
     background: none;
     padding: 15px 0 0 0;
+    text-align: center;
   }
 
   .logoWrap {
     float: left;
     width: 400px;
     vertical-align: top;
+
+    @media screen and (max-width: $gridSize) {
+      width: 55%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    @media screen and (max-width: $tabletBP) {
+      width: 55%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    @media screen and (max-width: $mobileBP) {
+      width: 100%;
+      margin: 0 auto;
+    }
 
     h1 {
       display: inline-block;
@@ -197,6 +230,11 @@ section {
       font-size: 2.9em;
       letter-spacing: -4px;
       text-align: right;
+
+      @media screen and (max-width: $tabletBP) {
+        font-size: 2.3em;
+        width: auto;
+      }
 
       .headerEvent {
         letter-spacing: 0px;
@@ -210,39 +248,106 @@ section {
 
     .logo {
       display: inline-block;
-      width: 120px;
-      height: 120px;
+      width: 115px;
+      height: 115px;
       border-radius: 75px;
       background: #171717;
       margin-left: 15px;
 
+      @media screen and (max-width: $tabletBP) {
+       width: 90px;
+        height: 90px;
+        margin-top: 0px;
+      }
+    }
+
+    h3 {
+      font-size: .9em;
+      float: right;
+      margin-top: -5px;
+      margin-right: 25px;
+      // letter-spacing: -.5px;
+      // Fix This!
+
+
+      @media screen and (max-width: $gridSize) {
+        display: none;
+      }
     }
   }
 
   .eventDetails {
-    width: 310px;
+    width: 290px;
     position: relative;
     display: inline-block;
+    float: left;
+
+    @media screen and (max-width: $tabletBP) {
+      width: 40%;
+    }
+
+    @media screen and (max-width: $mobileBP) {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .brResp {
+
+      @media screen and (max-width: $mobileBP) {
+        display: none;
+      }
+    }
 
     h3 {
       width: 90%;
       margin: 0 auto;
       text-align: center;
-      line-height: .8em;
-      font-size: 1.2em;
-      font-weight: 900;
-      border-bottom: 1px solid #171717;
+      line-height: 1em;
+      font-size: 1em;
+      font-weight: 400;
+      border-top: 1px solid #171717;
       padding-bottom: 15px;
       padding-top: 15px;
+      text-transform: uppercase;
+
+      @media screen and (max-width: $tabletBP) {
+        font-size: .8em;
+        line-height: 1.1em;
+        padding-top: 10px;
+      }
+    }
+
+    .bolder {
+      font-weight: 900;
+      font-size: 1.2em;
+    }
+
+    .highlight {
+      font-weight: 400;
     }
 
     h5 {
       font-weight: 900;
       font-size: 1.2em;
       line-height: .9em;
-      padding-top: 15px;
+      padding-bottom: 15px;
       text-align: center;
       letter-spacing: 0px;
+      margin-top: 10px;
+
+      @media screen and (max-width: $gridSize) {
+        padding-bottom: 10px;
+      }
+
+      @media screen and (max-width: $tabletBP) {
+        font-size: 1em;
+        line-height: .9em;
+      }
+
     }
   }
 
@@ -252,13 +357,13 @@ section {
     display: inline-block;
     width: 220px;
 
-    @media screen and (max-width: 930px) {
+    @media screen and (max-width: $gridSize) {
       width: 100%;
     }
 
     ul {
 
-      @media screen and (max-width: 930px) {
+      @media screen and (max-width: $gridSize) {
         text-align: center;
         float: none;
         margin: 0 auto;
@@ -275,14 +380,22 @@ section {
         padding: 10px 15px;
         text-align: center;
         text-transform: uppercase;
-        line-height: .8em;
+        line-height: 1em;
         font-size: .7em;
+        padding-top: 20px;
+        vertical-align: top;
 
-        @media screen and (max-width: 930px) {
+        @media screen and (max-width: $gridSize) {
           width: 23%;
           text-align: center;
           float: none;
           margin: 0 auto;
+          max-width: 185px;
+        }
+
+        @media screen and (max-width: $mobileBP) {
+          font-size: .5em;
+          padding-top: 10px;
         }
 
       }
@@ -390,7 +503,7 @@ nav {
   padding: 0 0 0 0;
   text-align: center;
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: $gridSize) {
     position: fixed;
     top: 0;
     left: 0;
@@ -398,7 +511,7 @@ nav {
   }
 
   .respBr {
-    @media screen and (max-width: 930px) {
+    @media screen and (max-width: $gridSize) {
       display: none;
     }
   }
@@ -406,7 +519,7 @@ nav {
   .mobileSpace {
     display: none;
 
-    @media screen and (max-width: 930px) {
+    @media screen and (max-width: $gridSize) {
       display: inline-block;
       content: '&nbsp;';
       position: relative;
@@ -423,7 +536,7 @@ nav {
     padding: 10px 0;
     cursor: pointer;
 
-    @media screen and (max-width: 930px) {
+    @media screen and (max-width: $gridSize) {
      display: block;
     }
   }
@@ -434,8 +547,10 @@ nav {
     display: block;
     margin: 0 auto;
 
-    @media screen and (max-width: 930px) {
-      display: none;
+    @media screen and (max-width: $gridSize) {
+      height: 0;
+      overflow: hidden;
+      transition: all .6s;
     }
 
     li {
@@ -445,15 +560,15 @@ nav {
       text-transform: uppercase;
       text-align: center;
       line-height: .8em;
+      font-weight: 100;
 
-      @media screen and (max-width: 930px) {
+      @media screen and (max-width: $gridSize) {
         width: 100%;
         margin: 0 auto;
         text-align: center;
         padding: 10px 15px;
 
       }
-
 
       a {
         width: auto;
@@ -463,11 +578,11 @@ nav {
         color: white !important;
         text-decoration: none;
         font-size: .75em;
-        font-weight: 600;
+        font-weight: 500 !important;
         text-align: center;
         padding: 10px 15px 7px;
 
-        @media screen and (max-width: 930px) {
+        @media screen and (max-width: $gridSize) {
           width: 100%;
           font-size: 18px;
         }
@@ -481,7 +596,8 @@ nav {
   }
 
   .makeBlock {
-    display: block;
+    height: 360px;
+    transition: all 1s;
   }
 }
 
@@ -496,18 +612,13 @@ POSTS & CONTENT STYLES
 
 		.hentry {
 			background-color: #FFF;
-			border-radius: 3px;
-			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
+
 
 			header {
-				border-bottom: 1px solid #ccc;
-				padding: 1.5em;
+
 			}
 
 			footer {
-				padding: 1.5em;
-				border-top: 1px solid #ccc;
 
 				p {
 					margin: 0;
@@ -549,10 +660,19 @@ POSTS & CONTENT STYLES
 			time {}
 		}
 
+
+
+
 		/* entry content */
+
+
 		.entry-content {
 			padding: 1.5em 1.5em 0;
             padding-bottom: 90px;
+
+          header {
+            background: blue !important;
+          }
 
           h3 {
             font-size: 1.2em;
@@ -561,11 +681,27 @@ POSTS & CONTENT STYLES
             width: 65%;
             margin-left: 15px;
             margin-bottom: 30px;
+
+            @media screen and (max-width: $tabletBP) {
+              width: 95%;
+            }
+          }
+
+          p {
+            width: 65%;
+
+            @media screen and (max-width: $tabletBP) {
+              width: 95%;
+            }
           }
 
             .seminarWrap {
               margin-left: 30px;
               width: 60%;
+
+              @media screen and (max-width: $tabletBP) {
+                width: 90%;
+              }
 
               h1 {
                 color: teal;
