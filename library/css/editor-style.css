@@ -1,0 +1,752 @@
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+/* line 130, ../scss/_base.scss */
+section {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* line 138, ../scss/_base.scss */
+.gridWrap {
+    width: 100%;
+    max-width: 930px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 930px) {
+    /* line 138, ../scss/_base.scss */
+    .gridWrap {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+/* line 152, ../scss/_base.scss */
+.gridWrap .featureImageWrap {
+    height: 450px;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+/* line 158, ../scss/_base.scss */
+.gridWrap .featureImageWrap h1 {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    bottom: -3px;
+    font-size: 70px;
+    line-height: 50px;
+    position: absolute;
+    margin-left: 30px;
+    letter-spacing: -3.5px !important;
+}
+
+/* line 174, ../scss/_base.scss */
+.headerTop {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    display: inline-block;
+    padding-top: 15px;
+}
+@media screen and (max-width: 930px) {
+    /* line 174, ../scss/_base.scss */
+    .headerTop {
+        height: 270px;
+        padding-top: 45px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* line 174, ../scss/_base.scss */
+    .headerTop {
+        height: 230px;
+        padding-top: 45px;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* line 174, ../scss/_base.scss */
+    .headerTop {
+        height: 300px;
+    }
+}
+/* line 195, ../scss/_base.scss */
+.headerTop .gridWrap {
+    background: none;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+/* line 201, ../scss/_base.scss */
+.headerTop .logoWrap {
+    float: left;
+    width: 400px;
+    vertical-align: top;
+}
+@media screen and (max-width: 930px) {
+    /* line 201, ../scss/_base.scss */
+    .headerTop .logoWrap {
+        width: 55%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* line 201, ../scss/_base.scss */
+    .headerTop .logoWrap {
+        width: 55%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* line 201, ../scss/_base.scss */
+    .headerTop .logoWrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/* line 223, ../scss/_base.scss */
+.headerTop .logoWrap h1 {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: .85em;
+    font-size: 2.9em;
+    letter-spacing: -4px;
+    text-align: right;
+}
+@media screen and (max-width: 768px) {
+    /* line 223, ../scss/_base.scss */
+    .headerTop .logoWrap h1 {
+        font-size: 2.3em;
+        width: auto;
+    }
+}
+/* line 239, ../scss/_base.scss */
+.headerTop .logoWrap h1 .headerEvent {
+    letter-spacing: 0px;
+}
+/* line 244, ../scss/_base.scss */
+.headerTop .logoWrap h1 .headerAcademy {
+    letter-spacing: -4px;
+}
+/* line 249, ../scss/_base.scss */
+.headerTop .logoWrap .logo {
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+    border-radius: 75px;
+    background: #171717;
+    margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+    /* line 249, ../scss/_base.scss */
+    .headerTop .logoWrap .logo {
+        width: 90px;
+        height: 90px;
+        margin-top: 0px;
+    }
+}
+/* line 264, ../scss/_base.scss */
+.headerTop .logoWrap h3 {
+    font-size: .9em;
+    float: right;
+    margin-top: -5px;
+    margin-right: 25px;
+}
+@media screen and (max-width: 930px) {
+    /* line 264, ../scss/_base.scss */
+    .headerTop .logoWrap h3 {
+        display: none;
+    }
+}
+/* line 279, ../scss/_base.scss */
+.headerTop .eventDetails {
+    width: 290px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+    /* line 279, ../scss/_base.scss */
+    .headerTop .eventDetails {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* line 279, ../scss/_base.scss */
+    .headerTop .eventDetails {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/* line 294, ../scss/_base.scss */
+.headerTop .eventDetails a {
+    text-decoration: none;
+}
+@media screen and (max-width: 560px) {
+    /* line 298, ../scss/_base.scss */
+    .headerTop .eventDetails .brResp {
+        display: none;
+    }
+}
+/* line 305, ../scss/_base.scss */
+.headerTop .eventDetails h3 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: 400;
+    border-top: 1px solid #171717;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+    /* line 305, ../scss/_base.scss */
+    .headerTop .eventDetails h3 {
+        font-size: .8em;
+        line-height: 1.1em;
+        padding-top: 10px;
+    }
+}
+/* line 324, ../scss/_base.scss */
+.headerTop .eventDetails .bolder {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+/* line 329, ../scss/_base.scss */
+.headerTop .eventDetails .highlight {
+    font-weight: 400;
+}
+/* line 333, ../scss/_base.scss */
+.headerTop .eventDetails h5 {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: .9em;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 930px) {
+    /* line 333, ../scss/_base.scss */
+    .headerTop .eventDetails h5 {
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* line 333, ../scss/_base.scss */
+    .headerTop .eventDetails h5 {
+        font-size: 1em;
+        line-height: .9em;
+    }
+}
+/* line 354, ../scss/_base.scss */
+.headerTop .quickNav {
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 220px;
+}
+@media screen and (max-width: 930px) {
+    /* line 354, ../scss/_base.scss */
+    .headerTop .quickNav {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 930px) {
+    /* line 364, ../scss/_base.scss */
+    .headerTop .quickNav ul {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+}
+/* line 372, ../scss/_base.scss */
+.headerTop .quickNav ul li {
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    width: 48%;
+    height: 55px;
+    border: 1px solid #171717;
+    margin: 2px 2px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: .7em;
+    padding-top: 20px;
+    vertical-align: top;
+}
+@media screen and (max-width: 930px) {
+    /* line 372, ../scss/_base.scss */
+    .headerTop .quickNav ul li {
+        width: 23%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        max-width: 185px;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* line 372, ../scss/_base.scss */
+    .headerTop .quickNav ul li {
+        font-size: .5em;
+        padding-top: 10px;
+    }
+}
+
+/*********************
+LINK STYLES
+*********************/
+/* line 414, ../scss/_base.scss */
+a, a:visited {
+    color: #171717;
+    /* on hover */
+    /* on click */
+    /* mobile tap color */
+}
+/* line 418, ../scss/_base.scss */
+a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #171717;
+}
+/* line 428, ../scss/_base.scss */
+a:link, a:visited:link {
+    /*
+    this highlights links on iPhones/iPads.
+    so it basically works like the :hover selector
+    for mobile devices.
+    */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+/* line 442, ../scss/_base.scss */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    text-rendering: optimizelegibility;
+    font-weight: 500;
+    /*
+    if you're going to use webfonts, be sure to check your weights
+    http://css-tricks.com/watch-your-font-weight/
+    */
+    /* removing text decoration from all headline links */
+}
+/* line 451, ../scss/_base.scss */
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+    text-decoration: none;
+}
+
+/* line 456, ../scss/_base.scss */
+h1, .h1 {
+    font-size: 2.5em;
+    line-height: 1.333em;
+}
+
+/* line 461, ../scss/_base.scss */
+h2, .h2 {
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin-bottom: 0.375em;
+}
+
+/* line 467, ../scss/_base.scss */
+h3, .h3 {
+    font-size: 1.125em;
+}
+
+/* line 471, ../scss/_base.scss */
+h4, .h4 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+/* line 476, ../scss/_base.scss */
+h5, .h5 {
+    font-size: 0.846em;
+    line-height: 2.09em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+/* line 493, ../scss/_base.scss */
+.nav .gridWrap {
+    background: black;
+    padding: 0 0 0 0;
+}
+
+/* line 500, ../scss/_base.scss */
+nav {
+    width: 100%;
+    background: black;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+@media screen and (max-width: 930px) {
+    /* line 500, ../scss/_base.scss */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+}
+@media screen and (max-width: 930px) {
+    /* line 513, ../scss/_base.scss */
+    nav .respBr {
+        display: none;
+    }
+}
+/* line 519, ../scss/_base.scss */
+nav .mobileSpace {
+    display: none;
+}
+@media screen and (max-width: 930px) {
+    /* line 519, ../scss/_base.scss */
+    nav .mobileSpace {
+        display: inline-block;
+        content: '&nbsp;';
+        position: relative;
+        font-size: .2em;
+    }
+}
+/* line 531, ../scss/_base.scss */
+nav .menuAdd {
+    display: none;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+}
+@media screen and (max-width: 930px) {
+    /* line 531, ../scss/_base.scss */
+    nav .menuAdd {
+        display: block;
+    }
+}
+/* line 544, ../scss/_base.scss */
+nav ul {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 930px) {
+    /* line 544, ../scss/_base.scss */
+    nav ul {
+        height: 0;
+        overflow: hidden;
+        transition: all .6s;
+    }
+}
+/* line 556, ../scss/_base.scss */
+nav ul li {
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: .8em;
+    font-weight: 100;
+}
+@media screen and (max-width: 930px) {
+    /* line 556, ../scss/_base.scss */
+    nav ul li {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 15px;
+    }
+}
+/* line 573, ../scss/_base.scss */
+nav ul li a {
+    width: auto;
+    min-width: 110px;
+    display: inline-block;
+    position: relative;
+    color: white !important;
+    text-decoration: none;
+    font-size: .75em;
+    font-weight: 500 !important;
+    text-align: center;
+    padding: 10px 15px 7px;
+}
+@media screen and (max-width: 930px) {
+    /* line 573, ../scss/_base.scss */
+    nav ul li a {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+/* line 591, ../scss/_base.scss */
+nav ul li a:hover {
+    background: #333;
+    transition: all 1s;
+}
+/* line 598, ../scss/_base.scss */
+nav .makeBlock {
+    height: 360px;
+    transition: all 1s;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* line 609, ../scss/_base.scss */
+#content {
+    margin-top: 1.5em;
+}
+
+/* line 613, ../scss/_base.scss */
+.hentry {
+    background-color: #FFF;
+}
+/* line 623, ../scss/_base.scss */
+.hentry footer p {
+    margin: 0;
+}
+
+/* end .hentry */
+/* line 632, ../scss/_base.scss */
+.single-title,
+.page-title,
+.entry-title {
+    margin: 0;
+}
+
+/* want to style individual post classes? Booya! */
+/* post by id (i.e. post-3) */
+/* general post style */
+/* general article on a page style */
+/* general style on an attatchment */
+/* sticky post style */
+/* hentry class */
+/* style by category (i.e. category-videos) */
+/* style by tag (i.e. tag-news) */
+/* post meta */
+/* line 655, ../scss/_base.scss */
+.byline {
+    color: #ccc;
+    font-style: italic;
+    margin: 0;
+}
+
+/* entry content */
+/* line 669, ../scss/_base.scss */
+.entry-content {
+    padding: 1.5em 1.5em 0;
+    padding-bottom: 90px;
+}
+/* line 673, ../scss/_base.scss */
+.entry-content header {
+    background: blue !important;
+}
+/* line 677, ../scss/_base.scss */
+.entry-content h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4em;
+    width: 65%;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    /* line 677, ../scss/_base.scss */
+    .entry-content h3 {
+        width: 95%;
+    }
+}
+/* line 690, ../scss/_base.scss */
+.entry-content p {
+    width: 95%;
+    max-width: 650px;
+}
+@media screen and (max-width: 768px) {
+    /* line 690, ../scss/_base.scss */
+    .entry-content p {
+        width: 95%;
+    }
+}
+/* line 699, ../scss/_base.scss */
+.entry-content .seminarWrap {
+    margin-left: 30px;
+    width: 60%;
+}
+@media screen and (max-width: 768px) {
+    /* line 699, ../scss/_base.scss */
+    .entry-content .seminarWrap {
+        width: 90%;
+    }
+}
+/* line 707, ../scss/_base.scss */
+.entry-content .seminarWrap h1 {
+    color: teal;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+/* line 718, ../scss/_base.scss */
+.entry-content .seminarWrap p {
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+/* line 724, ../scss/_base.scss */
+.entry-content p {
+    margin: 0 0 1.5em;
+    padding-left: 15px;
+    font-size: .9em;
+}
+/* line 730, ../scss/_base.scss */
+.entry-content .finePrint {
+    font-size: .7em;
+}
+/* line 743, ../scss/_base.scss */
+.entry-content ul {
+    padding: 0 0 1.5em 3em;
+}
+/* line 746, ../scss/_base.scss */
+.entry-content ul li {
+    font-size: .9em;
+    list-style: square;
+}
+/* line 753, ../scss/_base.scss */
+.entry-content dl {
+    padding: 0 0 1.5em 3em;
+}
+/* line 756, ../scss/_base.scss */
+.entry-content dl dt {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+/* line 761, ../scss/_base.scss */
+.entry-content dl dd {
+    font-size: .9em;
+    font-weight: 100;
+    width: 90%;
+    max-width: 650px;
+}
+/* line 775, ../scss/_base.scss */
+.entry-content table {
+    width: 100%;
+    border: 1px solid #999;
+    margin-bottom: 1.5em;
+}
+/* line 780, ../scss/_base.scss */
+.entry-content table caption {
+    margin: 0 0 7px;
+    font-size: 0.75em;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* line 789, ../scss/_base.scss */
+.entry-content tr {
+    border-bottom: 1px solid #999;
+}
+/* line 792, ../scss/_base.scss */
+.entry-content tr:nth-child(even) {
+    background-color: #ccc;
+}
+/* line 797, ../scss/_base.scss */
+.entry-content td {
+    padding: 7px;
+    border-right: 1px solid #999;
+}
+/* line 801, ../scss/_base.scss */
+.entry-content td:last-child {
+    border-right: 0;
+}
+/* line 806, ../scss/_base.scss */
+.entry-content th {
+    background-color: #ccc;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
+/* line 811, ../scss/_base.scss */
+.entry-content th:last-child {
+    border-right: 0;
+}
+/* line 816, ../scss/_base.scss */
+.entry-content blockquote {
+    margin: 0 0 1.5em 0.75em;
+    padding: 0 0 0 0.75em;
+    border-left: 3px solid teal;
+    font-style: italic;
+    color: #ccc;
+}
+/* line 831, ../scss/_base.scss */
+.entry-content dd {
+    margin-left: 0;
+    font-size: 0.9em;
+    color: #787878;
+    margin-bottom: 1.5em;
+}
+/* line 838, ../scss/_base.scss */
+.entry-content img {
+    margin: 0 0 1.5em 0;
+    max-width: 100%;
+    height: auto;
+}
+/* line 852, ../scss/_base.scss */
+.entry-content .size-auto,
+.entry-content .size-full,
+.entry-content .size-large,
+.entry-content .size-medium,
+.entry-content .size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+/* line 857, ../scss/_base.scss */
+.entry-content pre {
+    background: #000;
+    color: #ccc;
+    font-size: 0.9em;
+    padding: 1.5em;
+    margin: 0 0 1.5em;
+    border-radius: 3px;
+}
+
+/* end .entry-content */
+/* line 868, ../scss/_base.scss */
+.wp-caption {
+    max-width: 100%;
+    background: #eee;
+    padding: 5px;
+    /* images inside wp-caption */
+}
+/* line 874, ../scss/_base.scss */
+.wp-caption img {
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%;
+}
+/* line 880, ../scss/_base.scss */
+.wp-caption p.wp-caption-text {
+    font-size: 0.85em;
+    margin: 4px 0 7px;
+    text-align: center;
+}
+
+/* end .wp-caption */
+/* image gallery styles */
+/* end .gallery */
+/* gallery caption styles */
+/* line 911, ../scss/_base.scss */
+.tags {
+    margin: 0;
+}
