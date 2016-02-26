@@ -21,7 +21,6 @@
 		<div id="container">
 			<section class="headerTop">
 				<div class="gridWrap">
-
 					<div class="logoWrap">
 						<h1>Arc'teryx<br><span class="headerEvent">Alpine</span><br><span class="headerAcademy">Academy</span></h1>
 						<div class="logo">

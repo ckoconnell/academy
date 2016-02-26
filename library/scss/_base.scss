@@ -28,9 +28,8 @@ $body-font: Avenir, Arial, sans-serif;
 
 // Dev Paths
 
-
-// $file-path: "http://localhost/academywp";
-$file-path: "http://ckoconnell.github.io/arcteryx/alpineacademydev";
+$file-path: "http://localhost/academywp";
+//$file-path: "http://ckoconnell.github.io/arcteryx/alpineacademydev";
 
 
 /*********************
@@ -185,7 +184,7 @@ section {
   height: 170px;
   position: relative;
   display: inline-block;
-  padding-top: 15px;
+  padding-top: 35px;
 
   @media screen and (max-width: $gridSize) {
     height: 270px;
@@ -626,11 +625,23 @@ HOMEPAGE STYLES
       .homeTwoThird {
         width: 65.5%;
         height: 400px;
+
+        @media screen and (max-width: 930px) {
+          width: 63%;
+        }
+
+        @media screen and (max-width: $tabletBP) {
+          width: 100%;
+        }
       }
 
       .homeOneThird {
-        width: 31%;
+        width: 30%;
         height: 400px;
+
+        @media screen and (max-width: $tabletBP) {
+          width: 100%;
+        }
       }
 
       .introHomeMarch15 {
@@ -730,7 +741,7 @@ HOMEPAGE STYLES
       }
 
       .marginRight {
-        margin-right: 25px;
+        margin-right: 3%;
       }
 
       .clinicCTA {
