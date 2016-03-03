@@ -140,7 +140,6 @@
                 <iframe src="https://www.youtube.com/embed/as6Y8hUEwQY" frameborder="0" allowfullscreen></iframe>
             </li>
 
-
             <li class="homeOneThird contestCTA marginRight">
                 <div class="homeImg"></div>
                 <div class="homeContent">
@@ -174,10 +173,6 @@
 
 </section>
 
-
-
-
 <div style="clear: both;"></div>
-
 
 <?php get_footer(); ?>

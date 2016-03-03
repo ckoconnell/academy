@@ -15,10 +15,11 @@
 
 		<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); $url = $thumb['0']; ?>
 		<div class="featureImageWrap" style="background-image:url(<?=$url?>);">
-			<h1 class="page-title"><?php the_title(); ?></h1>
+
 		</div>
 
 		<section class="entry-content cf" itemprop="articleBody">
+			<h1 class="page-title"><?php the_title(); ?></h1>
 			<?php the_content(); ?>
 		</section>
 
