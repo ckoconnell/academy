@@ -11,17 +11,19 @@
     <div class="gridWrap">
 
         <ul>
+            <!--
             <li class="introHomeMarch15 homeFull">
                 <h3>Introduction Message</h3>
             </li>
+            -->
 
             <li class="homeTwoThird clinicCTA marginRight">
                 <div class="homeImg"></div>
                 <div class="homeContent">
                     <h1>Clinic & Workshop Registration Is Now Open</h1>
-                    <p>Intro Text Goes Here</p>
+                    <p>Registration for the Arc'teryx Alpine Academy is underway. Please click below or visit the Clinics & Workshops page for the complete program listing.</p>
                     <div style="clear:both;"></div>
-                    <a href="#">CTA</a>
+                    <a href="http://chamonix.arcteryxacademy.com/clinics-workshops-2016/">Clinic Registration</a>
                 </div>
             </li>
 
@@ -29,8 +31,8 @@
                 <div class="homeImg"></div>
                 <div class="homeContent">
                     <h1>Win Your Trip</h1>
-                    <p>Intro Text Goes Here</p>
-                    <a href="#">CTA</a>
+                    <p>Enter for your chance to WIN your next alpine mountaineering adventure and climbing gear at the Alpine Academy for you and your rope partner.</p>
+                    <a href="http://chamonix.arcteryxacademy.com/enter-to-win/">Enter To Win</a>
                 </div>
             </li>
 
@@ -40,6 +42,7 @@
                     <h3>Tag Your Photos with #ArcteryxAcademy on Twitter, Instagram & Facebook</h3>
                     <div class="socialLogos">
                         <ul>
+                            <a href="https://www.instagram.com/arcteryx/?hl=en">
                             <li class="socialInsta">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -73,6 +76,8 @@
 </g>
 </svg>
                             </li>
+                            </a>
+                            <a href="https://www.facebook.com/arcteryx/">
                             <li class="socialFacebook">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
@@ -87,6 +92,8 @@
 	c-72.7,0-122.5,44.4-122.5,125.9v70.2h-82.2v95.2H249v244.4H347.4z"/>
 </svg>
                             </li>
+                            </a>
+                            <a href="https://twitter.com/arcteryx">
                             <li class="socialTwitter">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -130,6 +137,7 @@
 </g>
 </svg>
                             </li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -140,7 +148,9 @@
                 <iframe src="https://www.youtube.com/embed/as6Y8hUEwQY" frameborder="0" allowfullscreen></iframe>
             </li>
 
-            <li class="homeOneThird contestCTA marginRight">
+            <!--
+
+            <li class="homeOneThird athleteCTA marginRight">
                 <div class="homeImg"></div>
                 <div class="homeContent">
                     <h1>Athletes & Guides</h1>
@@ -149,7 +159,7 @@
                 </div>
             </li>
 
-            <li class="homeOneThird contestCTA marginRight">
+            <li class="homeOneThird filmCTA marginRight">
                 <div class="homeImg"></div>
                 <div class="homeContent">
                     <h1>Film Night</h1>
@@ -158,7 +168,7 @@
                 </div>
             </li>
 
-            <li class="homeOneThird contestCTA">
+            <li class="homeOneThird seminarCTA">
                 <div class="homeImg"></div>
                 <div class="homeContent">
                     <h1>Seminar Night</h1>
@@ -166,6 +176,9 @@
                     <a href="#">CTA</a>
                 </div>
             </li>
+           
+           -->
+
 
         </ul>
 
