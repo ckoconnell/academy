@@ -89,10 +89,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top: -32px !important;
-  background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/bg1.jpg') no-repeat;
-  background-position: center top;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/bg1.jpg') no-repeat !important;
+  background-position: center top !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 
@@ -188,10 +188,10 @@ section {
 
 .headerTop {
   width: 100%;
-  height: 170px;
+  height: 140px;
   position: relative;
   display: inline-block;
-  padding-top: 35px;
+  padding-top: 0px;
 
   @media screen and (max-width: $gridSize) {
     height: 270px;
@@ -331,6 +331,7 @@ section {
       padding-bottom: 12px;
       padding-top: 15px;
       text-transform: uppercase;
+      color: black !important;
 
       @media screen and (max-width: $tabletBP) {
         font-size: .8em;
@@ -360,6 +361,7 @@ section {
       text-align: center;
       letter-spacing: 0px;
       margin-top: 10px;
+      color: black !important;
 
       @media screen and (max-width: $gridSize) {
         padding-bottom: 10px;
@@ -406,6 +408,7 @@ section {
         font-size: .7em;
         padding-top: 17px;
         vertical-align: top;
+        color: black !important;
 
         @media screen and (max-width: $gridSize) {
           width: 23%;
@@ -464,6 +467,7 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
 	font-weight: 500;
+  color: black;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -506,6 +510,49 @@ h5, .h5 {
 
 p {
 
+}
+
+
+/*********************
+LANGUAGE SELECT STYLES
+*********************/
+
+.langs {
+  position: absolute;
+  top: 1px;
+  left: 5px;
+
+  ul {
+
+    li {
+      
+      a {
+        font-family: $light-font !important;
+      font-size: .7em !important;
+      text-transform: uppercase;
+      transition: all .5s !important;
+      }
+
+      a:hover {
+        transition: all .3s !important;
+      }
+    }
+  }
+}
+
+.wooWrap {
+
+  nav {
+    text-align: right !important;
+    padding: 10px 10px 5px !important;
+    display: inline-block !important;
+
+    a {
+      font-family: $light-font !important;
+      font-size: .7em !important;
+      text-transform: uppercase;
+    }
+  }
 }
 
 
@@ -601,7 +648,8 @@ nav {
         position: relative;
         color: white !important;
         text-decoration: none;
-        font-size: .75em;
+        font-size: .75em !important;
+        line-height: 1em !important;
         font-weight: 500 !important;
         text-align: center;
         padding: 10px 15px 7px;
@@ -613,7 +661,8 @@ nav {
       }
 
       a:hover {
-        background: #333;
+        background: #333 !important;
+        color: #ccc !important; 
         transition: all 1s;
       }
     }
@@ -788,6 +837,7 @@ HOMEPAGE STYLES
 
           h1 {
             margin-top: 15%;
+            color: black !important;
           }
 
           p {
@@ -833,6 +883,7 @@ HOMEPAGE STYLES
 
           h1 {
             margin-top: -8px;
+            color: black !important;
           }
 
           p {
@@ -1161,6 +1212,7 @@ POSTS & CONTENT STYLES
             margin-bottom: 1em;
             text-transform: uppercase;
             line-height: 1em;
+            color: black !important;
 
             @media screen and (max-width: $tabletBP) {
               width: 95%;
@@ -1183,11 +1235,16 @@ POSTS & CONTENT STYLES
               font-size: .7em;
             }
 
+          a {
+            color: teal !important;
+            font-family: $med-font;
+          }
+
           a.socialComingSoon {
             text-transform: uppercase;
             padding: 8px 18px;
             background: #171717;
-            color: white;
+            color: white !important;
             transition: all .5s;
             font-family: $light-font;
             font-size: .9em;
@@ -1204,7 +1261,7 @@ POSTS & CONTENT STYLES
           a.contestLink {
             display: inline-block;
             text-decoration: none;
-            color: #171717;
+            color: #171717 !important;
             border: 1px solid #171717;
             text-transform: uppercase;
             font-size: .9em;
@@ -1216,7 +1273,7 @@ POSTS & CONTENT STYLES
           }
 
           a.contestLink:hover {
-            color: white;
+            color: white !important;
             background: #171717;
           }
 

@@ -19,6 +19,10 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
+		<!-- Language Selector Testing -->
+
+		
+
 		<div id="container">
 			<section class="headerTop">
 				<div class="gridWrap">
