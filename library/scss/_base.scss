@@ -548,6 +548,8 @@ LANGUAGE SELECT STYLES
       a:hover {
         transition: all .3s !important;
       }
+
+
     }
   }
 }
@@ -565,6 +567,14 @@ LANGUAGE SELECT STYLES
       text-transform: uppercase;
     }
   }
+}
+
+
+a.lang_sel_sel {
+  text-decoration: underline !important;
+  font-family: $heavy-font !important;
+  color: #ccc !important;
+  background: #333 !important;
 }
 
 
@@ -2161,7 +2171,7 @@ FOOTER STYLES
   .gridWrap {
     background: black !important;
     padding: 15px;
-    height: 450px;
+    height: auto;
   }
 
   .footerLinks {

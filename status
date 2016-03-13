@@ -1,0 +1,55 @@
+Status Update 
+
+Hi Team,
+
+Wanted to provide an update on the site. Things are in pretty good shape. I've got all of the content pages online in all languages, ready for review.
+
+I still want to make sure I have the final translations before I set the navigation so I will still need Max or Cyrill to send over all final content in all languages.
+
+My big progress today (what day is it?) was getting all of the new styles wrapped around the Ecomm functionality. This is now done for the most part. You can access the ecomm page flow by selecting Clinics & Workshops page and then selecting the first item (Mountain clean up - all other items have no stock at the moment so unable to add to cart). You should be able to add to cart and proceed to checkout. 
+
+Max or Cyrill, do you have a corporate PayPal account that I can use for testing? I haven't hit the confirmation page yet and that will probably require a few added styles to change the text color to black from white.
+
+I have run into a few issues with the Cart not keeping items but I'm going to speak to Daniel at the agency about that directly. Everything works so it's probably just a timeout or something small. Anyways, if you do see any errors that's good from a testing perspective. If you guys see old styles please screenshot and send me the URL of the page and any other relevant info.
+
+There are a number of things still on my list, but as of now the site is in reasonable enough shape for a review. PLease let me know of any issues you see, and in the interest of streamlining communications while my email is down, it would be great if you guys could send over thoughts/changes in one email each. I won't be able to keep track of 30 separate issue emails, just fair warning :)
+
+Here's a rough and incomplete list of the stuff still on my list:
+- Responsive styling for the language selector and cart bar (mobile and tablet)
+- Home page template replicated in FR & DE
+- Finalize FR & DE Navigations when translations arrive
+- Style remaining Ecomm pages (Confirmation, more?) when I receive access to testing PayPal account
+- Tweak Footer Styling 
+- Add Analytics
+- Full platform/browser/breakpoint testing 
+
+Team Europe, I've got the following needs on my list from you guys:
+- Content Review (ASAP)
+- Send me all Finalized Content in all languages via email to ck.oconnell@gmail.com (one email, multiple attachments is fine) (Super ASAP)
+- Provide me with test PayPal account (I'll also ask Daniel for this but if you have one please send it my way)	
+- Ecomm Testing (Monday)
+
+Ok, I'm going to try to get a few hours of sleep. What a weekend for losing an hour due to daylight savings time.
+
+Thanks,
+Chris
+
+
+Hello Daniel,
+
+Hope all is well. Wanted to provide an update on the Alpine Academy website. 
+
+I've made good progres over the last 24 hours and now have the language selection functionality and ecomm pages wrapped in the new styles. It's a touch hacky, but I didn't want to mess with the templates or inherited styles in case you needed to test it in it's previous form (just take out the call to the new css file in the header).
+
+In my testing I noticed a couple of instances of the cart not remembering it's item, but over the past hour or so in going through the site everything seems to be functiong just fine. Have you noticed anything like this?
+
+As far as moving forward towards launch, I just have a couple of small things to ask:
+- Do you have a testing paypal account so that I can ensure I've hit and tested all of the ecomm pages?
+- The only issue I've had on the backend is the inability to save changes to the translated navigations. I'm going to try a couple things to fix this, but I may need you to copy & paste a couple of string entries into the WP SQL database.
+
+Max and Cyrill will be working on a content and ecomm review so I'm sure I'll have some other work to do but that's the major stuff on my radar at this point.
+
+Thanks,
+Chris
+
+
