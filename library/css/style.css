@@ -123,8 +123,15 @@ section {
   letter-spacing: -3.5px !important;
   text-shadow: 1px 1px 0px #aaa;
 }
+@media screen and (max-width: 560px) {
+  /* line 172, ../scss/_base.scss */
+  .gridWrap .featureImageWrap h1 {
+    font-size: 3em;
+    line-height: .7em;
+  }
+}
 
-/* line 189, ../scss/_base.scss */
+/* line 194, ../scss/_base.scss */
 .headerTop {
   width: 100%;
   height: 140px;
@@ -133,43 +140,48 @@ section {
   padding-top: 0px;
 }
 @media screen and (max-width: 930px) {
-  /* line 189, ../scss/_base.scss */
+  /* line 194, ../scss/_base.scss */
   .headerTop {
-    height: 270px;
+    height: 180px;
     padding-top: 45px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 189, ../scss/_base.scss */
+  /* line 194, ../scss/_base.scss */
   .headerTop {
-    height: 230px;
     padding-top: 45px;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 189, ../scss/_base.scss */
+  /* line 194, ../scss/_base.scss */
   .headerTop {
-    height: 300px;
+    height: 250px;
   }
 }
-/* line 210, ../scss/_base.scss */
+/* line 215, ../scss/_base.scss */
 .headerTop .gridWrap {
   background: none;
   padding: 15px 0 0 0;
   text-align: center;
 }
-/* line 216, ../scss/_base.scss */
+/* line 221, ../scss/_base.scss */
 .headerTop .logoWrap {
   float: left;
   width: 400px;
   vertical-align: top;
 }
-/* line 221, ../scss/_base.scss */
+/* line 226, ../scss/_base.scss */
 .headerTop .logoWrap svg {
   width: 370px;
 }
+@media screen and (max-width: 768px) {
+  /* line 226, ../scss/_base.scss */
+  .headerTop .logoWrap svg {
+    width: 315px;
+  }
+}
 @media screen and (max-width: 930px) {
-  /* line 216, ../scss/_base.scss */
+  /* line 221, ../scss/_base.scss */
   .headerTop .logoWrap {
     width: 55%;
     margin: 0 auto;
@@ -177,21 +189,21 @@ section {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 216, ../scss/_base.scss */
+  /* line 221, ../scss/_base.scss */
   .headerTop .logoWrap {
-    width: 55%;
+    width: 66%;
     margin: 0 auto;
     overflow: hidden;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 216, ../scss/_base.scss */
+  /* line 221, ../scss/_base.scss */
   .headerTop .logoWrap {
     width: 100%;
     margin: 0 auto;
   }
 }
-/* line 242, ../scss/_base.scss */
+/* line 251, ../scss/_base.scss */
 .headerTop .logoWrap h1 {
   display: inline-block;
   width: 250px;
@@ -204,21 +216,21 @@ section {
   text-align: right;
 }
 @media screen and (max-width: 768px) {
-  /* line 242, ../scss/_base.scss */
+  /* line 251, ../scss/_base.scss */
   .headerTop .logoWrap h1 {
     font-size: 2.3em;
     width: auto;
   }
 }
-/* line 258, ../scss/_base.scss */
+/* line 267, ../scss/_base.scss */
 .headerTop .logoWrap h1 .headerEvent {
   letter-spacing: 0px;
 }
-/* line 263, ../scss/_base.scss */
+/* line 272, ../scss/_base.scss */
 .headerTop .logoWrap h1 .headerAcademy {
   letter-spacing: -4px;
 }
-/* line 268, ../scss/_base.scss */
+/* line 277, ../scss/_base.scss */
 .headerTop .logoWrap .logo {
   display: inline-block;
   width: 115px;
@@ -228,14 +240,14 @@ section {
   margin-left: 15px;
 }
 @media screen and (max-width: 768px) {
-  /* line 268, ../scss/_base.scss */
+  /* line 277, ../scss/_base.scss */
   .headerTop .logoWrap .logo {
     width: 90px;
     height: 90px;
     margin-top: 0px;
   }
 }
-/* line 283, ../scss/_base.scss */
+/* line 292, ../scss/_base.scss */
 .headerTop .logoWrap h3 {
   font-size: .9em;
   float: right;
@@ -243,12 +255,12 @@ section {
   margin-right: 25px;
 }
 @media screen and (max-width: 930px) {
-  /* line 283, ../scss/_base.scss */
+  /* line 292, ../scss/_base.scss */
   .headerTop .logoWrap h3 {
     display: none;
   }
 }
-/* line 298, ../scss/_base.scss */
+/* line 307, ../scss/_base.scss */
 .headerTop .eventDetails {
   width: 290px;
   position: relative;
@@ -256,29 +268,31 @@ section {
   float: left;
 }
 @media screen and (max-width: 768px) {
-  /* line 298, ../scss/_base.scss */
+  /* line 307, ../scss/_base.scss */
   .headerTop .eventDetails {
-    width: 40%;
+    width: 33%;
+    float: right;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 298, ../scss/_base.scss */
+  /* line 307, ../scss/_base.scss */
   .headerTop .eventDetails {
     width: 100%;
     margin: 0 auto;
+    float: none;
   }
 }
-/* line 313, ../scss/_base.scss */
+/* line 324, ../scss/_base.scss */
 .headerTop .eventDetails a {
   text-decoration: none;
 }
 @media screen and (max-width: 560px) {
-  /* line 317, ../scss/_base.scss */
+  /* line 328, ../scss/_base.scss */
   .headerTop .eventDetails .brResp {
     display: none;
   }
 }
-/* line 324, ../scss/_base.scss */
+/* line 335, ../scss/_base.scss */
 .headerTop .eventDetails h3 {
   width: 90%;
   margin: 0 auto;
@@ -292,27 +306,27 @@ section {
   color: black !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 324, ../scss/_base.scss */
+  /* line 335, ../scss/_base.scss */
   .headerTop .eventDetails h3 {
     font-size: .8em;
     line-height: 1.1em;
     padding-top: 10px;
   }
 }
-/* line 343, ../scss/_base.scss */
+/* line 354, ../scss/_base.scss */
 .headerTop .eventDetails .topline {
   border-top: 1px solid #171717;
 }
-/* line 347, ../scss/_base.scss */
+/* line 358, ../scss/_base.scss */
 .headerTop .eventDetails .bolder {
   font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
   font-size: 1.1em;
 }
-/* line 352, ../scss/_base.scss */
+/* line 363, ../scss/_base.scss */
 .headerTop .eventDetails .highlight {
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
 }
-/* line 356, ../scss/_base.scss */
+/* line 367, ../scss/_base.scss */
 .headerTop .eventDetails h5 {
   font-weight: 900;
   font-size: 1.2em;
@@ -324,19 +338,19 @@ section {
   color: black !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 356, ../scss/_base.scss */
+  /* line 367, ../scss/_base.scss */
   .headerTop .eventDetails h5 {
     padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 356, ../scss/_base.scss */
+  /* line 367, ../scss/_base.scss */
   .headerTop .eventDetails h5 {
     font-size: 1em;
     line-height: .9em;
   }
 }
-/* line 378, ../scss/_base.scss */
+/* line 389, ../scss/_base.scss */
 .headerTop .quickNav {
   float: right;
   position: relative;
@@ -344,20 +358,20 @@ section {
   width: 220px;
 }
 @media screen and (max-width: 930px) {
-  /* line 378, ../scss/_base.scss */
+  /* line 389, ../scss/_base.scss */
   .headerTop .quickNav {
-    width: 100%;
+    display: none !important;
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 388, ../scss/_base.scss */
+  /* line 400, ../scss/_base.scss */
   .headerTop .quickNav ul {
     text-align: center;
     float: none;
     margin: 0 auto;
   }
 }
-/* line 396, ../scss/_base.scss */
+/* line 408, ../scss/_base.scss */
 .headerTop .quickNav ul li {
   box-sizing: border-box;
   display: inline-block;
@@ -376,7 +390,7 @@ section {
   color: black !important;
 }
 @media screen and (max-width: 930px) {
-  /* line 396, ../scss/_base.scss */
+  /* line 408, ../scss/_base.scss */
   .headerTop .quickNav ul li {
     width: 23%;
     text-align: center;
@@ -386,7 +400,7 @@ section {
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 396, ../scss/_base.scss */
+  /* line 408, ../scss/_base.scss */
   .headerTop .quickNav ul li {
     font-size: .5em;
     padding-top: 10px;
@@ -396,18 +410,18 @@ section {
 /*********************
 LINK STYLES
 *********************/
-/* line 439, ../scss/_base.scss */
+/* line 451, ../scss/_base.scss */
 a, a:visited {
   color: #171717;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 443, ../scss/_base.scss */
+/* line 455, ../scss/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #171717;
 }
-/* line 453, ../scss/_base.scss */
+/* line 465, ../scss/_base.scss */
 a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -420,7 +434,7 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 467, ../scss/_base.scss */
+/* line 479, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
@@ -431,38 +445,38 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 477, ../scss/_base.scss */
+/* line 489, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 482, ../scss/_base.scss */
+/* line 494, ../scss/_base.scss */
 h1, .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
   font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
 }
 
-/* line 488, ../scss/_base.scss */
+/* line 500, ../scss/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
 
-/* line 494, ../scss/_base.scss */
+/* line 506, ../scss/_base.scss */
 h3, .h3 {
   font-size: 1.125em;
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
 }
 
-/* line 499, ../scss/_base.scss */
+/* line 511, ../scss/_base.scss */
 h4, .h4 {
   font-size: 1.1em;
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
 }
 
-/* line 504, ../scss/_base.scss */
+/* line 516, ../scss/_base.scss */
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
@@ -473,31 +487,31 @@ h5, .h5 {
 /*********************
 LANGUAGE SELECT STYLES
 *********************/
-/* line 520, ../scss/_base.scss */
+/* line 532, ../scss/_base.scss */
 .langs {
   position: absolute;
   top: 1px;
   left: 5px;
 }
-/* line 529, ../scss/_base.scss */
+/* line 541, ../scss/_base.scss */
 .langs ul li a {
   font-family: "Avenir LT W01_35 Light1475496", sans-serif !important;
   font-size: .7em !important;
   text-transform: uppercase;
   transition: all .5s !important;
 }
-/* line 536, ../scss/_base.scss */
+/* line 548, ../scss/_base.scss */
 .langs ul li a:hover {
   transition: all .3s !important;
 }
 
-/* line 545, ../scss/_base.scss */
+/* line 557, ../scss/_base.scss */
 .wooWrap nav {
   text-align: right !important;
   padding: 10px 10px 5px !important;
   display: inline-block !important;
 }
-/* line 550, ../scss/_base.scss */
+/* line 562, ../scss/_base.scss */
 .wooWrap nav a {
   font-family: "Avenir LT W01_35 Light1475496", sans-serif !important;
   font-size: .7em !important;
@@ -507,13 +521,13 @@ LANGUAGE SELECT STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 564, ../scss/_base.scss */
+/* line 576, ../scss/_base.scss */
 .nav .gridWrap {
   background: black;
   padding: 0 0 0 0;
 }
 
-/* line 571, ../scss/_base.scss */
+/* line 583, ../scss/_base.scss */
 nav {
   width: 100%;
   background: black;
@@ -521,7 +535,7 @@ nav {
   text-align: center;
 }
 @media screen and (max-width: 930px) {
-  /* line 571, ../scss/_base.scss */
+  /* line 583, ../scss/_base.scss */
   nav {
     position: fixed;
     top: 0;
@@ -530,17 +544,17 @@ nav {
   }
 }
 @media screen and (max-width: 930px) {
-  /* line 584, ../scss/_base.scss */
+  /* line 596, ../scss/_base.scss */
   nav .respBr {
     display: none;
   }
 }
-/* line 590, ../scss/_base.scss */
+/* line 602, ../scss/_base.scss */
 nav .mobileSpace {
   display: none;
 }
 @media screen and (max-width: 930px) {
-  /* line 590, ../scss/_base.scss */
+  /* line 602, ../scss/_base.scss */
   nav .mobileSpace {
     display: inline-block;
     content: '&nbsp;';
@@ -548,7 +562,7 @@ nav .mobileSpace {
     font-size: .2em;
   }
 }
-/* line 602, ../scss/_base.scss */
+/* line 614, ../scss/_base.scss */
 nav .menuAdd {
   display: none;
   color: white;
@@ -558,12 +572,12 @@ nav .menuAdd {
   cursor: pointer;
 }
 @media screen and (max-width: 930px) {
-  /* line 602, ../scss/_base.scss */
+  /* line 614, ../scss/_base.scss */
   nav .menuAdd {
     display: block;
   }
 }
-/* line 615, ../scss/_base.scss */
+/* line 627, ../scss/_base.scss */
 nav ul {
   position: relative;
   width: 100%;
@@ -571,14 +585,14 @@ nav ul {
   margin: 0 auto;
 }
 @media screen and (max-width: 930px) {
-  /* line 615, ../scss/_base.scss */
+  /* line 627, ../scss/_base.scss */
   nav ul {
     height: 0;
     overflow: hidden;
     transition: all .6s;
   }
 }
-/* line 627, ../scss/_base.scss */
+/* line 639, ../scss/_base.scss */
 nav ul li {
   width: auto;
   display: inline-block;
@@ -589,7 +603,7 @@ nav ul li {
   font-weight: 100;
 }
 @media screen and (max-width: 930px) {
-  /* line 627, ../scss/_base.scss */
+  /* line 639, ../scss/_base.scss */
   nav ul li {
     width: 100%;
     margin: 0 auto;
@@ -597,7 +611,7 @@ nav ul li {
     padding: 10px 15px;
   }
 }
-/* line 644, ../scss/_base.scss */
+/* line 656, ../scss/_base.scss */
 nav ul li a {
   width: auto;
   min-width: 110px;
@@ -612,75 +626,186 @@ nav ul li a {
   padding: 10px 15px 7px;
 }
 @media screen and (max-width: 930px) {
-  /* line 644, ../scss/_base.scss */
+  /* line 656, ../scss/_base.scss */
   nav ul li a {
     width: 100%;
     font-size: 18px;
   }
 }
-/* line 663, ../scss/_base.scss */
+/* line 675, ../scss/_base.scss */
 nav ul li a:hover {
   background: #333 !important;
   color: #ccc !important;
   transition: all 1s;
 }
-/* line 671, ../scss/_base.scss */
+/* line 683, ../scss/_base.scss */
 nav .makeBlock {
   height: 360px;
   transition: all 1s;
 }
 
 /*********************
+ECOMM STYLES
+*********************/
+/* line 692, ../scss/_base.scss */
+#content {
+  width: 100% !important;
+  max-width: 930px !important;
+  margin: 0 auto !important;
+  background: white !important;
+  padding: 25px 30px;
+}
+/* line 701, ../scss/_base.scss */
+#content .summary h1 {
+  font-family: "Avenir LT W01_85 Heavy1475544", sans-serif !important;
+  font-size: 1.3em !important;
+  line-height: 1em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 15px !important;
+  width: 100% !important;
+  max-width: 450px !important;
+}
+/* line 711, ../scss/_base.scss */
+#content .summary p {
+  width: 100% !important;
+  max-width: 600px !important;
+  line-height: 1.4em !important;
+  margin-bottom: .8em !important;
+}
+/* line 717, ../scss/_base.scss */
+#content .summary p a {
+  color: teal !important;
+  font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
+}
+/* line 726, ../scss/_base.scss */
+#content p.stock {
+  font-family: "Avenir LT W01_85 Heavy1475544", sans-serif !important;
+  margin-top: 30px !important;
+  text-transform: uppercase !important;
+}
+/* line 732, ../scss/_base.scss */
+#content ul.woocommerce-error {
+  display: block !important;
+  margin: 15px 0 !important;
+  background: white !important;
+  border: 1px solid #ccc !important;
+  padding: 10px !important;
+}
+/* line 739, ../scss/_base.scss */
+#content ul.woocommerce-error li {
+  list-style: none !important;
+  line-height: .9em !important;
+}
+/* line 743, ../scss/_base.scss */
+#content ul.woocommerce-error li a {
+  color: white !important;
+  background: black !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  padding: 5px 15px !important;
+  border-radius: 3px !important;
+  margin-left: 15px !important;
+  transition: all .3s !important;
+  border: 1px solid black !important;
+  font-family: "Avenir LT W01_65 Medium1475532", sans-serif !important;
+  font-size: .7em !important;
+  display: inline !important;
+  float: right !important;
+  margin-bottom: 15px !important;
+}
+/* line 760, ../scss/_base.scss */
+#content ul.woocommerce-error li a:hover {
+  color: black !important;
+  background: white !important;
+  transition: all .5s !important;
+}
+/* line 769, ../scss/_base.scss */
+#content .product_meta {
+  margin: 30px 0 !important;
+  text-transform: uppercase !important;
+}
+/* line 773, ../scss/_base.scss */
+#content .product_meta .posted_in {
+  text-transform: uppercase !important;
+}
+/* line 776, ../scss/_base.scss */
+#content .product_meta .posted_in a {
+  color: black !important;
+  font-size: .9em;
+  text-transform: uppercase !important;
+}
+
+/* line 790, ../scss/_base.scss */
+.cart button.single_add_to_cart_button {
+  color: white !important;
+  background: black !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  border-radius: 3px !important;
+  margin-left: 0 !important;
+  transition: all .3s !important;
+  border: 1px solid black !important;
+  font-family: "Avenir LT W01_65 Medium1475532", sans-serif !important;
+}
+/* line 802, ../scss/_base.scss */
+.cart button.single_add_to_cart_button:hover {
+  color: black !important;
+  background: white !important;
+  transition: all .5s !important;
+  border: 1px solid black !important;
+}
+
+/*********************
 HOMEPAGE STYLES
 *********************/
-/* line 683, ../scss/_base.scss */
+/* line 816, ../scss/_base.scss */
 .homeMarch15 .gridWrap {
   background: none !important;
   padding-top: 30px;
 }
-/* line 687, ../scss/_base.scss */
+/* line 820, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul {
   display: block;
 }
-/* line 690, ../scss/_base.scss */
+/* line 823, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeTwoThird {
-  width: 65.5%;
+  width: 66.5%;
   height: 400px;
 }
 @media screen and (max-width: 930px) {
-  /* line 690, ../scss/_base.scss */
+  /* line 823, ../scss/_base.scss */
   .homeMarch15 .gridWrap ul .homeTwoThird {
     width: 63%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 690, ../scss/_base.scss */
+  /* line 823, ../scss/_base.scss */
   .homeMarch15 .gridWrap ul .homeTwoThird {
     width: 100%;
   }
 }
-/* line 703, ../scss/_base.scss */
+/* line 836, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeOneThird {
   width: 30%;
   height: 400px;
 }
 @media screen and (max-width: 768px) {
-  /* line 703, ../scss/_base.scss */
+  /* line 836, ../scss/_base.scss */
   .homeMarch15 .gridWrap ul .homeOneThird {
     width: 100%;
   }
 }
-/* line 712, ../scss/_base.scss */
+/* line 845, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .introHomeMarch15 {
   background: none;
   text-align: center;
 }
-/* line 721, ../scss/_base.scss */
+/* line 854, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull {
   width: 100%;
   padding: 0 !important;
 }
-/* line 725, ../scss/_base.scss */
+/* line 858, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader {
   width: 100%;
   height: 60px;
@@ -691,7 +816,7 @@ HOMEPAGE STYLES
   position: relative;
   overflow: hidden;
 }
-/* line 735, ../scss/_base.scss */
+/* line 868, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h1 {
   font-weight: 400;
   text-transform: uppercase;
@@ -700,11 +825,11 @@ HOMEPAGE STYLES
   vertical-align: top;
   line-height: 1em;
 }
-/* line 744, ../scss/_base.scss */
+/* line 877, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h1 .bolder {
   font-weight: 900;
 }
-/* line 749, ../scss/_base.scss */
+/* line 882, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h3 {
   color: white;
   vertical-align: top;
@@ -712,29 +837,29 @@ HOMEPAGE STYLES
   text-transform: uppercase;
   font-size: .7em !important;
 }
-/* line 757, ../scss/_base.scss */
+/* line 890, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos {
   position: absolute;
   right: 2em;
   top: 10px;
 }
-/* line 762, ../scss/_base.scss */
+/* line 895, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul {
   text-align: center;
   padding-top: 5px;
 }
-/* line 766, ../scss/_base.scss */
+/* line 899, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul a {
   text-decoration: none;
   border: none;
   padding: 0;
   margin-top: 0;
 }
-/* line 773, ../scss/_base.scss */
+/* line 906, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul a:hover {
   background: none;
 }
-/* line 778, ../scss/_base.scss */
+/* line 911, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul li {
   display: inline-block;
   width: 35px;
@@ -743,39 +868,39 @@ HOMEPAGE STYLES
   background: none;
   color: white;
 }
-/* line 787, ../scss/_base.scss */
+/* line 920, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta {
   width: 20px;
   color: white;
   fill: white;
 }
-/* line 792, ../scss/_base.scss */
+/* line 925, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta svg {
   width: 30px;
 }
-/* line 797, ../scss/_base.scss */
+/* line 930, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialFacebook {
   width: 25px;
   fill: white;
   margin-left: 15px;
 }
-/* line 803, ../scss/_base.scss */
+/* line 936, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialTwitter {
   width: 25px;
   fill: white;
   padding-top: 4px;
   transition: all .5s;
 }
-/* line 810, ../scss/_base.scss */
+/* line 943, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialTwitter:hover, .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta:hover, .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialFacebook:hover {
   fill: #aaa;
   transition: all 1s;
 }
-/* line 820, ../scss/_base.scss */
+/* line 953, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .marginRight {
   margin-right: 3%;
 }
-/* line 825, ../scss/_base.scss */
+/* line 958, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeImg {
   width: 55%;
   height: 100%;
@@ -784,24 +909,24 @@ HOMEPAGE STYLES
   background-size: cover;
   background-position: center bottom;
 }
-/* line 834, ../scss/_base.scss */
+/* line 967, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent {
   width: 40%;
   float: left;
 }
-/* line 838, ../scss/_base.scss */
+/* line 971, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent h1 {
   margin-top: 15%;
   color: black !important;
 }
-/* line 843, ../scss/_base.scss */
+/* line 976, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent p {
   text-align: left;
   line-height: 1em;
   font-size: 1em;
   margin-top: 1em;
 }
-/* line 850, ../scss/_base.scss */
+/* line 983, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a {
   display: inline-block;
   text-decoration: none;
@@ -816,35 +941,35 @@ HOMEPAGE STYLES
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 866, ../scss/_base.scss */
+/* line 999, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a:hover {
   color: #171717;
   background: white;
 }
-/* line 874, ../scss/_base.scss */
+/* line 1007, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 45%;
 }
-/* line 881, ../scss/_base.scss */
+/* line 1014, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent {
   width: 100%;
 }
-/* line 884, ../scss/_base.scss */
+/* line 1017, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent h1 {
   margin-top: -8px;
   color: black !important;
 }
-/* line 889, ../scss/_base.scss */
+/* line 1022, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent p {
   text-align: left;
   line-height: 1em;
   font-size: 1em;
   margin-top: .7em;
 }
-/* line 896, ../scss/_base.scss */
+/* line 1029, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent a {
   display: inline-block;
   text-decoration: none;
@@ -859,49 +984,49 @@ HOMEPAGE STYLES
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 912, ../scss/_base.scss */
+/* line 1045, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent a:hover {
   color: #171717;
   background: white;
 }
-/* line 921, ../scss/_base.scss */
+/* line 1054, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .athleteCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 45%;
 }
-/* line 928, ../scss/_base.scss */
+/* line 1061, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .athleteCTA .homeContent {
   width: 100%;
 }
-/* line 934, ../scss/_base.scss */
+/* line 1067, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .filmCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 45%;
 }
-/* line 941, ../scss/_base.scss */
+/* line 1074, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .filmCTA .homeContent {
   width: 100%;
 }
-/* line 947, ../scss/_base.scss */
+/* line 1080, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .seminarCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 45%;
 }
-/* line 954, ../scss/_base.scss */
+/* line 1087, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .seminarCTA .homeContent {
   width: 100%;
 }
-/* line 960, ../scss/_base.scss */
+/* line 1093, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul .trailer {
   background: none !important;
 }
-/* line 965, ../scss/_base.scss */
+/* line 1098, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li {
   display: inline-block;
   vertical-align: top;
@@ -909,17 +1034,17 @@ HOMEPAGE STYLES
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-/* line 972, ../scss/_base.scss */
+/* line 1105, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li .homeImg {
   display: inline-block;
 }
-/* line 976, ../scss/_base.scss */
+/* line 1109, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li .homeContent {
   display: inline-block;
   padding: 20px;
   text-align: center;
 }
-/* line 982, ../scss/_base.scss */
+/* line 1115, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li h1 {
   font-size: 1.4em;
   font-weight: 900;
@@ -927,11 +1052,11 @@ HOMEPAGE STYLES
   line-height: 1em;
   text-align: left;
 }
-/* line 990, ../scss/_base.scss */
+/* line 1123, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li p {
   text-align: left;
 }
-/* line 994, ../scss/_base.scss */
+/* line 1127, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li a {
   display: inline-block;
   text-decoration: none;
@@ -943,13 +1068,13 @@ HOMEPAGE STYLES
   text-align: center;
   transition: all .6s;
 }
-/* line 1006, ../scss/_base.scss */
+/* line 1139, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li a:hover {
   background: #171717;
   color: white;
   transition: all .8s;
 }
-/* line 1012, ../scss/_base.scss */
+/* line 1145, ../scss/_base.scss */
 .homeMarch15 .gridWrap ul li iframe {
   width: 100%;
   height: 480px;
@@ -958,22 +1083,22 @@ HOMEPAGE STYLES
 /*********************
 SOCIAL FEED STYLES
 *********************/
-/* line 1031, ../scss/_base.scss */
+/* line 1164, ../scss/_base.scss */
 .socialEmbed .socialIntro {
   display: block;
   height: 120px;
   padding: 15px;
 }
-/* line 1037, ../scss/_base.scss */
+/* line 1170, ../scss/_base.scss */
 .socialEmbed h1 {
   font-size: 1.7em;
   text-transform: uppercase;
 }
-/* line 1042, ../scss/_base.scss */
+/* line 1175, ../scss/_base.scss */
 .socialEmbed .bolder {
   font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
 }
-/* line 1046, ../scss/_base.scss */
+/* line 1179, ../scss/_base.scss */
 .socialEmbed h3 {
   font-size: 1em;
   text-transform: uppercase;
@@ -981,29 +1106,29 @@ SOCIAL FEED STYLES
   max-width: 550px;
   line-height: 1.1em;
 }
-/* line 1054, ../scss/_base.scss */
+/* line 1187, ../scss/_base.scss */
 .socialEmbed .socialLogos {
   position: absolute;
   right: 2em;
   top: 10px;
 }
-/* line 1059, ../scss/_base.scss */
+/* line 1192, ../scss/_base.scss */
 .socialEmbed .socialLogos ul {
   text-align: center;
   padding-top: 5px;
 }
-/* line 1063, ../scss/_base.scss */
+/* line 1196, ../scss/_base.scss */
 .socialEmbed .socialLogos ul a {
   text-decoration: none;
   border: none;
   padding: 0;
   margin-top: 0;
 }
-/* line 1070, ../scss/_base.scss */
+/* line 1203, ../scss/_base.scss */
 .socialEmbed .socialLogos ul a:hover {
   background: none;
 }
-/* line 1075, ../scss/_base.scss */
+/* line 1208, ../scss/_base.scss */
 .socialEmbed .socialLogos ul li {
   display: inline-block;
   width: 35px;
@@ -1012,35 +1137,35 @@ SOCIAL FEED STYLES
   background: none;
   color: white;
 }
-/* line 1084, ../scss/_base.scss */
+/* line 1217, ../scss/_base.scss */
 .socialEmbed .socialLogos ul .socialInsta {
   width: 20px;
   color: white;
   fill: #171717;
 }
-/* line 1089, ../scss/_base.scss */
+/* line 1222, ../scss/_base.scss */
 .socialEmbed .socialLogos ul .socialInsta svg {
   width: 30px;
 }
-/* line 1094, ../scss/_base.scss */
+/* line 1227, ../scss/_base.scss */
 .socialEmbed .socialLogos ul .socialFacebook {
   width: 25px;
   fill: #171717;
   margin-left: 15px;
 }
-/* line 1100, ../scss/_base.scss */
+/* line 1233, ../scss/_base.scss */
 .socialEmbed .socialLogos ul .socialTwitter {
   width: 25px;
   fill: #171717;
   padding-top: 4px;
   transition: all .5s;
 }
-/* line 1107, ../scss/_base.scss */
+/* line 1240, ../scss/_base.scss */
 .socialEmbed .socialLogos ul .socialTwitter:hover, .socialEmbed .socialLogos ul .socialInsta:hover, .socialEmbed .socialLogos ul .socialFacebook:hover {
   fill: #aaa;
   transition: all 1s;
 }
-/* line 1114, ../scss/_base.scss */
+/* line 1247, ../scss/_base.scss */
 .socialEmbed iframe {
   width: 100%;
   height: 700px;
@@ -1050,22 +1175,22 @@ SOCIAL FEED STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 1127, ../scss/_base.scss */
+/* line 1260, ../scss/_base.scss */
 #content {
   margin-top: 1.5em;
 }
 
-/* line 1131, ../scss/_base.scss */
+/* line 1264, ../scss/_base.scss */
 .hentry {
   background-color: #FFF;
 }
-/* line 1141, ../scss/_base.scss */
+/* line 1274, ../scss/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 1150, ../scss/_base.scss */
+/* line 1283, ../scss/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -1082,7 +1207,7 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 1173, ../scss/_base.scss */
+/* line 1306, ../scss/_base.scss */
 .byline {
   color: #ccc;
   font-style: italic;
@@ -1090,22 +1215,23 @@ POSTS & CONTENT STYLES
 }
 
 /* entry content */
-/* line 1183, ../scss/_base.scss */
+/* line 1316, ../scss/_base.scss */
 .entry-content {
   padding: 1.5em 1.5em 0;
   padding-bottom: 90px;
+  /* Clinic Page Layout */
 }
-/* line 1187, ../scss/_base.scss */
+/* line 1320, ../scss/_base.scss */
 .entry-content header {
   background: blue !important;
 }
-/* line 1192, ../scss/_base.scss */
+/* line 1325, ../scss/_base.scss */
 .entry-content h1 {
   font-size: 1em;
   padding: 0 0 0 1em;
   font-weight: 900;
 }
-/* line 1198, ../scss/_base.scss */
+/* line 1331, ../scss/_base.scss */
 .entry-content h1.page-title {
   font-weight: 700;
   font-size: 2.5em;
@@ -1113,7 +1239,7 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   color: #171717;
 }
-/* line 1206, ../scss/_base.scss */
+/* line 1339, ../scss/_base.scss */
 .entry-content h3 {
   width: 90%;
   max-width: 650px;
@@ -1126,12 +1252,12 @@ POSTS & CONTENT STYLES
   color: black !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 1206, ../scss/_base.scss */
+  /* line 1339, ../scss/_base.scss */
   .entry-content h3 {
     width: 95%;
   }
 }
-/* line 1222, ../scss/_base.scss */
+/* line 1355, ../scss/_base.scss */
 .entry-content p {
   width: 95%;
   max-width: 650px;
@@ -1140,21 +1266,21 @@ POSTS & CONTENT STYLES
   font-size: 1em;
 }
 @media screen and (max-width: 768px) {
-  /* line 1222, ../scss/_base.scss */
+  /* line 1355, ../scss/_base.scss */
   .entry-content p {
     width: 95%;
   }
 }
-/* line 1234, ../scss/_base.scss */
+/* line 1367, ../scss/_base.scss */
 .entry-content .finePrint {
   font-size: .7em;
 }
-/* line 1238, ../scss/_base.scss */
+/* line 1371, ../scss/_base.scss */
 .entry-content a {
   color: teal !important;
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
 }
-/* line 1243, ../scss/_base.scss */
+/* line 1376, ../scss/_base.scss */
 .entry-content a.socialComingSoon {
   text-transform: uppercase;
   padding: 8px 18px;
@@ -1166,13 +1292,13 @@ POSTS & CONTENT STYLES
   text-decoration: none;
   border-radius: 3px;
 }
-/* line 1255, ../scss/_base.scss */
+/* line 1388, ../scss/_base.scss */
 .entry-content a.socialComingSoon:hover {
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
   background: #333;
   transition: all .3s;
 }
-/* line 1261, ../scss/_base.scss */
+/* line 1394, ../scss/_base.scss */
 .entry-content a.contestLink {
   display: inline-block;
   text-decoration: none;
@@ -1186,31 +1312,268 @@ POSTS & CONTENT STYLES
   border-radius: 3px;
   transition: all .3s;
 }
-/* line 1275, ../scss/_base.scss */
+/* line 1408, ../scss/_base.scss */
 .entry-content a.contestLink:hover {
   color: white !important;
   background: #171717;
 }
-/* line 1288, ../scss/_base.scss */
+/* line 1415, ../scss/_base.scss */
+.entry-content .clinicWrap {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+/* line 1420, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicBG {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  background-size: cover !important;
+}
+@media screen and (max-width: 700px) {
+  /* line 1420, ../scss/_base.scss */
+  .entry-content .clinicWrap .clinicBG {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 1420, ../scss/_base.scss */
+  .entry-content .clinicWrap .clinicBG {
+    height: 300px;
+  }
+}
+/* line 1436, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicAcclimitization {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_acclimatization.jpg") no-repeat;
+}
+/* line 1440, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicGlacierPrep {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierprep.jpg") no-repeat;
+  background-position: right;
+}
+/* line 1445, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicSuuntoNav {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_suuntonav.jpg") no-repeat;
+}
+/* line 1449, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicFirstAid {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_firstaid.jpg") no-repeat;
+}
+/* line 1453, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicBasicMountaineering {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_basicmountaineering.jpg") no-repeat;
+}
+/* line 1457, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicTechAlpinism {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
+  background-position: center center !important;
+}
+/* line 1462, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicMultiPitch {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_multipitch.jpg") no-repeat;
+}
+/* line 1466, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicGlacierTour {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glaciertour.jpg") no-repeat;
+}
+/* line 1470, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicMSROvernight {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_msrovernight.jpg") no-repeat;
+}
+/* line 1474, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicPhotography {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_alpinephotography.jpg") no-repeat;
+  background-position: right;
+}
+/* line 1479, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicTradClimbing {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_tradclimbing.jpg") no-repeat;
+}
+/* line 1483, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicMedicine {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_medicine.jpg") no-repeat;
+}
+/* line 1487, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicDryTooling {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_drytooling.jpg") no-repeat;
+  background-position: right bottom;
+}
+/* line 1492, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicIceClimbing {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbing.jpg") no-repeat;
+}
+/* line 1496, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicRescue {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_rescue.jpg") no-repeat;
+}
+/* line 1500, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicGrade7 {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_grade7.jpg") no-repeat;
+}
+/* line 1504, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicIceClimbingWmn {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbingwmn.jpg") no-repeat;
+  background-position: right;
+}
+/* line 1509, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicGlacierTourWmn {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierwmn.jpg") no-repeat;
+}
+/* line 1513, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicBigWall {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bigwall.jpg") no-repeat;
+}
+/* line 1517, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicSkiAlpinism {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_skialpinism.jpg") no-repeat;
+}
+/* line 1521, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicBouldering {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bouldering.jpg") no-repeat;
+  background-position: right;
+}
+/* line 1526, ../scss/_base.scss */
+.entry-content .clinicWrap .clinicSplitboarding {
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_splitboarding.jpg") no-repeat;
+}
+/* line 1531, ../scss/_base.scss */
+.entry-content .clinicWrap h1 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: 'Avenir LT W01_85 Heavy1475544';
+  font-weight: 900;
+}
+/* line 1538, ../scss/_base.scss */
+.entry-content .clinicWrap p {
+  margin: 0 auto;
+  width: 70%;
+}
+@media screen and (max-width: 700px) {
+  /* line 1538, ../scss/_base.scss */
+  .entry-content .clinicWrap p {
+    width: 90%;
+    text-align: left;
+  }
+}
+/* line 1548, ../scss/_base.scss */
+.entry-content .clinicWrap ul {
+  display: block;
+  vertical-align: top;
+}
+/* line 1552, ../scss/_base.scss */
+.entry-content .clinicWrap ul li {
+  width: 42%;
+  margin: 30px 2%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: left;
+  vertical-align: top;
+  list-style: none !important;
+  display: inline-block !important;
+}
+/* line 1562, ../scss/_base.scss */
+.entry-content .clinicWrap ul li a {
+  color: white !important;
+  padding: 5px 10px;
+  background: black;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all .6s;
+  border: 1px solid black !important;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 1574, ../scss/_base.scss */
+.entry-content .clinicWrap ul li a:hover {
+  color: #171717 !important;
+  background: white !important;
+  transition: all .3s !important;
+  border: 1px solid black !important;
+}
+@media screen and (max-width: 700px) {
+  /* line 1552, ../scss/_base.scss */
+  .entry-content .clinicWrap ul li {
+    width: 90%;
+  }
+}
+/* line 1586, ../scss/_base.scss */
+.entry-content .clinicWrap ul li ul {
+  list-style: disc !important;
+}
+/* line 1589, ../scss/_base.scss */
+.entry-content .clinicWrap ul li ul li {
+  display: list-item !important;
+  width: 95% !important;
+  margin: 0;
+  padding: 0 0 .2em 0;
+  border: none;
+  list-style: disc !important;
+  font-size: .8em;
+  margin-left: 0px;
+}
+/* line 1602, ../scss/_base.scss */
+.entry-content .clinicWrap ul li h1 {
+  display: block;
+  font-size: 1.2em;
+  line-height: .9em;
+}
+/* line 1608, ../scss/_base.scss */
+.entry-content .clinicWrap ul li h3 {
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #666;
+  display: none;
+}
+/* line 1615, ../scss/_base.scss */
+.entry-content .clinicWrap ul li p {
+  width: 100%;
+  font-weight: 100;
+  font-size: .9em;
+  margin: 10px 0;
+}
+/* line 1623, ../scss/_base.scss */
+.entry-content .clinicWrap ul .fullWidth {
+  width: 90%;
+}
+/* line 1625, ../scss/_base.scss */
+.entry-content .clinicWrap ul .fullWidth img {
+  float: right;
+  width: 45%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+@media screen and (max-width: 700px) {
+  /* line 1625, ../scss/_base.scss */
+  .entry-content .clinicWrap ul .fullWidth img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+/* line 1636, ../scss/_base.scss */
+.entry-content .clinicWrap ul .fullWidth p {
+  width: 90% !important;
+}
+/* line 1657, ../scss/_base.scss */
 .entry-content ul {
   padding: 0 0 1.5em 3em;
 }
-/* line 1291, ../scss/_base.scss */
+/* line 1660, ../scss/_base.scss */
 .entry-content ul li {
   font-size: .9em;
   list-style: square;
 }
-/* line 1298, ../scss/_base.scss */
+/* line 1667, ../scss/_base.scss */
 .entry-content dl {
   padding: 0 0 1.5em 3em;
 }
-/* line 1301, ../scss/_base.scss */
+/* line 1670, ../scss/_base.scss */
 .entry-content dl dt {
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 1307, ../scss/_base.scss */
+/* line 1676, ../scss/_base.scss */
 .entry-content dl dd {
   font-size: .9em;
   font-weight: 100;
@@ -1218,13 +1581,13 @@ POSTS & CONTENT STYLES
   width: 90%;
   max-width: 650px;
 }
-/* line 1322, ../scss/_base.scss */
+/* line 1691, ../scss/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #999;
   margin-bottom: 1.5em;
 }
-/* line 1327, ../scss/_base.scss */
+/* line 1696, ../scss/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -1232,34 +1595,34 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 1336, ../scss/_base.scss */
+/* line 1705, ../scss/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #999;
 }
-/* line 1339, ../scss/_base.scss */
+/* line 1708, ../scss/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #ccc;
 }
-/* line 1344, ../scss/_base.scss */
+/* line 1713, ../scss/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #999;
 }
-/* line 1348, ../scss/_base.scss */
+/* line 1717, ../scss/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 1353, ../scss/_base.scss */
+/* line 1722, ../scss/_base.scss */
 .entry-content th {
   background-color: #ccc;
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
 }
-/* line 1358, ../scss/_base.scss */
+/* line 1727, ../scss/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 1363, ../scss/_base.scss */
+/* line 1732, ../scss/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -1267,20 +1630,20 @@ POSTS & CONTENT STYLES
   font-style: italic;
   color: #ccc;
 }
-/* line 1378, ../scss/_base.scss */
+/* line 1747, ../scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 1385, ../scss/_base.scss */
+/* line 1754, ../scss/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 1399, ../scss/_base.scss */
+/* line 1768, ../scss/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -1289,7 +1652,7 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto;
 }
-/* line 1404, ../scss/_base.scss */
+/* line 1773, ../scss/_base.scss */
 .entry-content pre {
   background: #000;
   color: #ccc;
@@ -1300,20 +1663,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 1415, ../scss/_base.scss */
+/* line 1784, ../scss/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 1421, ../scss/_base.scss */
+/* line 1790, ../scss/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 1427, ../scss/_base.scss */
+/* line 1796, ../scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -1324,7 +1687,7 @@ POSTS & CONTENT STYLES
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 1458, ../scss/_base.scss */
+/* line 1827, ../scss/_base.scss */
 .tags {
   margin: 0;
 }
@@ -1332,12 +1695,12 @@ POSTS & CONTENT STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 1475, ../scss/_base.scss */
+/* line 1844, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 1492, ../scss/_base.scss */
+/* line 1861, ../scss/_base.scss */
 .no-widgets {
   background-color: #FFF;
   padding: 1.5em;
@@ -1350,27 +1713,27 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1505, ../scss/_base.scss */
+/* line 1874, ../scss/_base.scss */
 .footer {
   text-transform: uppercase;
   color: #ccc;
   height: auto;
   display: block;
 }
-/* line 1511, ../scss/_base.scss */
+/* line 1880, ../scss/_base.scss */
 .footer .gridWrap {
   background: black !important;
   padding: 15px;
   height: 450px;
 }
-/* line 1517, ../scss/_base.scss */
+/* line 1886, ../scss/_base.scss */
 .footer .footerLinks {
   float: right;
   width: 100%;
   position: relative;
   display: inline-block;
 }
-/* line 1523, ../scss/_base.scss */
+/* line 1892, ../scss/_base.scss */
 .footer .footerLinks .footerDetails {
   width: 30%;
   height: 100%;
@@ -1378,17 +1741,17 @@ FOOTER STYLES
   display: inline-block;
   float: left;
 }
-/* line 1530, ../scss/_base.scss */
+/* line 1899, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap {
   padding-top: 10px;
   display: inline-block;
 }
-/* line 1534, ../scss/_base.scss */
+/* line 1903, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap svg {
   width: 90%;
   max-width: 250px;
 }
-/* line 1539, ../scss/_base.scss */
+/* line 1908, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 {
   display: inline-block;
   vertical-align: top;
@@ -1400,22 +1763,22 @@ FOOTER STYLES
   text-align: right;
   color: white !important;
 }
-/* line 1550, ../scss/_base.scss */
+/* line 1919, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerEvent {
   letter-spacing: 0px;
 }
-/* line 1555, ../scss/_base.scss */
+/* line 1924, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerAcademy {
   letter-spacing: -4px;
 }
-/* line 1560, ../scss/_base.scss */
+/* line 1929, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap .logo {
   display: inline-block;
   width: 90px;
   padding-left: 5px;
   margin-top: -4px;
 }
-/* line 1568, ../scss/_base.scss */
+/* line 1937, ../scss/_base.scss */
 .footer .footerLinks .footerDetails h3 {
   font-weight: 400;
   color: white;
@@ -1424,39 +1787,40 @@ FOOTER STYLES
   text-align: left;
   margin-top: 0px;
 }
-/* line 1579, ../scss/_base.scss */
+/* line 1948, ../scss/_base.scss */
 .footer .footerLinks ul {
   width: 65%;
   float: right;
 }
-/* line 1583, ../scss/_base.scss */
+/* line 1952, ../scss/_base.scss */
 .footer .footerLinks ul a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: .7em;
 }
-/* line 1590, ../scss/_base.scss */
+/* line 1959, ../scss/_base.scss */
 .footer .footerLinks ul li {
   display: inline-block;
   width: 190px;
 }
-/* line 1597, ../scss/_base.scss */
+/* line 1966, ../scss/_base.scss */
 .footer .sponsorWrap {
   padding: 30px 0;
 }
-/* line 1600, ../scss/_base.scss */
+/* line 1969, ../scss/_base.scss */
 .footer .sponsorWrap h3 {
   text-transform: uppercase;
   font-weight: 100;
   text-align: center;
   font-size: .9em;
+  color: white !important;
 }
-/* line 1608, ../scss/_base.scss */
+/* line 1977, ../scss/_base.scss */
 .footer .sponsorWrap ul {
   text-align: center;
 }
-/* line 1611, ../scss/_base.scss */
+/* line 1980, ../scss/_base.scss */
 .footer .sponsorWrap ul a {
   display: inline-block;
   width: 130px;
@@ -1464,43 +1828,43 @@ FOOTER STYLES
   padding: 35px 15px 0;
   margin: .5em .5em;
 }
-/* line 1620, ../scss/_base.scss */
+/* line 1989, ../scss/_base.scss */
 .footer .sponsorWrap ul li {
   width: 100%;
   height: 100%;
   list-style: none;
 }
-/* line 1626, ../scss/_base.scss */
+/* line 1995, ../scss/_base.scss */
 .footer .sponsorWrap ul .arcteryx {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 1632, ../scss/_base.scss */
+/* line 2001, ../scss/_base.scss */
 .footer .sponsorWrap ul .montblanc {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 1638, ../scss/_base.scss */
+/* line 2007, ../scss/_base.scss */
 .footer .sponsorWrap ul .gore {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 140px;
 }
-/* line 1644, ../scss/_base.scss */
+/* line 2013, ../scss/_base.scss */
 .footer .sponsorWrap ul .petzl {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 1650, ../scss/_base.scss */
+/* line 2019, ../scss/_base.scss */
 .footer .sponsorWrap ul .msr {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 1658, ../scss/_base.scss */
+/* line 2027, ../scss/_base.scss */
 .footer p {
   font-weight: 900;
   font-size: .8em;

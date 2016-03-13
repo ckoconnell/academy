@@ -182,6 +182,11 @@ section {
       letter-spacing: -3.5px !important;
       text-shadow: 1px 1px 0px #aaa;
 
+      @media screen and (max-width: $mobileBP) {
+        font-size: 3em;
+        line-height: .7em;
+      }
+
     }
   }
 }
@@ -194,17 +199,17 @@ section {
   padding-top: 0px;
 
   @media screen and (max-width: $gridSize) {
-    height: 270px;
+    height: 180px;
     padding-top: 45px;
   }
 
   @media screen and (max-width: $tabletBP) {
-    height: 230px;
+    
     padding-top: 45px;
   }
 
   @media screen and (max-width: $mobileBP) {
-    height: 300px;
+    height: 250px;
   }
 
   .gridWrap {
@@ -220,6 +225,10 @@ section {
 
     svg {
       width: 370px;
+
+      @media screen and (max-width: $tabletBP) {
+        width: 315px;
+      }
     }
 
     @media screen and (max-width: $gridSize) {
@@ -229,7 +238,7 @@ section {
     }
 
     @media screen and (max-width: $tabletBP) {
-      width: 55%;
+      width: 66%;
       margin: 0 auto;
       overflow: hidden;
     }
@@ -302,12 +311,14 @@ section {
     float: left;
 
     @media screen and (max-width: $tabletBP) {
-      width: 40%;
+      width: 33%;
+      float: right;
     }
 
     @media screen and (max-width: $mobileBP) {
       width: 100%;
       margin: 0 auto;
+      float: none;
     }
 
     a {
@@ -382,7 +393,8 @@ section {
     width: 220px;
 
     @media screen and (max-width: $gridSize) {
-      width: 100%;
+      // width: 100%;
+      display: none !important;
     }
 
     ul {
@@ -675,6 +687,127 @@ nav {
 }
 
 /*********************
+ECOMM STYLES
+*********************/
+#content {
+  width: 100% !important;
+  max-width: 930px !important;
+  margin: 0 auto !important;
+  background: white !important;
+  padding: 25px 30px;
+
+  .summary {
+
+    h1 {
+      font-family: $heavy-font !important;
+      font-size: 1.3em !important;
+      line-height: 1em !important;
+      text-transform: uppercase !important;
+      margin-bottom: 15px !important; 
+      width: 100% !important;
+      max-width: 450px !important;
+    }
+
+    p {
+      width: 100% !important;
+      max-width: 600px !important;
+      line-height: 1.4em !important;
+      margin-bottom: .8em !important;
+
+      a {
+        color: teal !important;
+        font-family: $heavy-font;
+      }
+
+
+    }
+  }
+
+p.stock {
+  font-family: $heavy-font !important;
+  margin-top: 30px !important;
+  text-transform: uppercase !important;
+}
+
+ul.woocommerce-error {
+  display: block !important;
+  margin: 15px 0 !important;
+  background: white !important;
+  border: 1px solid #ccc !important;
+  padding: 10px !important;
+
+  li {
+    list-style: none !important;
+    line-height: .9em !important;
+
+    a {
+      color: white !important;
+      background: black !important;
+      text-transform: uppercase !important;
+      cursor: pointer !important;
+      padding: 5px 15px !important; 
+      border-radius: 3px !important;
+      margin-left: 15px !important;
+      transition: all .3s !important;
+      border: 1px solid black !important;
+      font-family: $med-font !important;
+      font-size: .7em !important;
+      display: inline !important;
+      float: right !important;
+      margin-bottom: 15px !important;
+    }
+
+    a:hover {
+      color: black !important;
+      background: white !important;
+      transition: all .5s !important;
+    }
+  }
+}
+
+
+.product_meta {
+        margin: 30px 0 !important;
+        text-transform: uppercase !important;
+
+        .posted_in {
+          text-transform: uppercase !important;
+  
+          a {
+            color: black !important;
+            font-size: .9em;
+            text-transform: uppercase !important;
+          }
+
+        }
+
+
+      }
+}
+
+.cart {
+
+  button.single_add_to_cart_button {
+    color: white !important;
+    background: black !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    border-radius: 3px !important;
+    margin-left: 0 !important;
+    transition: all .3s !important;
+    border: 1px solid black !important;
+    font-family: $med-font !important;
+  }
+
+    button.single_add_to_cart_button:hover {
+    color: black !important;
+    background: white !important;
+    transition: all .5s !important;
+    border: 1px solid black !important;
+  }
+}
+
+/*********************
 HOMEPAGE STYLES
 *********************/
 
@@ -688,7 +821,7 @@ HOMEPAGE STYLES
       display: block;
 
       .homeTwoThird {
-        width: 65.5%;
+        width: 66.5%;
         height: 400px;
 
         @media screen and (max-width: 930px) {
@@ -1277,6 +1410,242 @@ POSTS & CONTENT STYLES
             background: #171717;
           }
 
+          /* Clinic Page Layout */
+
+          .clinicWrap {
+            width: 100%;
+            position: relative;
+            display: block;
+
+            .clinicBG {
+              width: 100%;
+              height: 250px;
+              margin: 0;
+              padding: 0;
+              background-size: cover !important;
+
+              @media screen and (max-width: 700px) {
+                height: 350px;
+              }
+
+              @media screen and (max-width: 500px) {
+                height: 300px;
+              }
+            }
+
+            .clinicAcclimitization {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_acclimatization.jpg') no-repeat;
+            }
+
+            .clinicGlacierPrep {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierprep.jpg') no-repeat;
+              background-position: right;
+            }
+
+            .clinicSuuntoNav {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_suuntonav.jpg') no-repeat;
+            }
+
+            .clinicFirstAid {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_firstaid.jpg') no-repeat;
+            }
+
+            .clinicBasicMountaineering {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_basicmountaineering.jpg') no-repeat;
+            }
+
+            .clinicTechAlpinism {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg') no-repeat;
+              background-position: center center !important;
+            }
+
+            .clinicMultiPitch {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_multipitch.jpg') no-repeat;
+            }
+
+            .clinicGlacierTour {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glaciertour.jpg') no-repeat;
+            }
+
+            .clinicMSROvernight {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_msrovernight.jpg') no-repeat;
+            }
+
+            .clinicPhotography {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_alpinephotography.jpg') no-repeat;
+              background-position: right;
+            }
+
+            .clinicTradClimbing {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_tradclimbing.jpg') no-repeat;
+            }
+
+            .clinicMedicine {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_medicine.jpg') no-repeat;
+            }
+
+            .clinicDryTooling {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_drytooling.jpg') no-repeat;
+              background-position: right bottom;
+            }
+
+            .clinicIceClimbing {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbing.jpg') no-repeat;
+            }
+
+            .clinicRescue {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_rescue.jpg') no-repeat;
+            }
+
+            .clinicGrade7 {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_grade7.jpg') no-repeat;
+            }
+
+            .clinicIceClimbingWmn {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbingwmn.jpg') no-repeat;
+              background-position: right;
+            }
+
+            .clinicGlacierTourWmn {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierwmn.jpg') no-repeat;
+            }
+
+            .clinicBigWall {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bigwall.jpg') no-repeat;
+            }
+
+            .clinicSkiAlpinism {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_skialpinism.jpg') no-repeat;
+            }
+
+            .clinicBouldering {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bouldering.jpg') no-repeat;
+              background-position: right;
+            }
+
+            .clinicSplitboarding {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_splitboarding.jpg') no-repeat;
+            }
+
+
+             h1 {
+                margin-top: 15px;
+                text-transform: uppercase;
+                font-family: 'Avenir LT W01_85 Heavy1475544';
+                font-weight: 900;
+              }
+
+              p {
+                margin: 0 auto;
+                width: 70%;
+
+                @media screen and (max-width: 700px) {
+                  width: 90%;
+                  text-align: left;
+                }
+              }
+
+              ul {
+                  display: block;
+                  vertical-align: top;
+
+                  li {
+                    width: 42%;
+                    margin: 30px 2%;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    text-align: left;
+                    vertical-align: top;
+                    list-style: none !important;
+                    display: inline-block !important;
+
+                    a {
+                      color: white !important;
+                      padding: 5px 10px;
+                      background: black;
+                      border-radius: 3px;
+                      text-transform: uppercase;
+                      transition: all .6s;
+                      border: 1px solid black !important;
+                      display: inline-block;
+                      margin-top: 10px;
+                    }
+
+                    a:hover {
+                      color: #171717 !important;
+                      background: white !important;
+                      transition: all .3s !important;
+                      border: 1px solid black !important;
+                    }
+
+
+                    @media screen and (max-width: 700px) {
+                      width: 90%;
+                    }
+
+                    ul {
+                      list-style: disc !important;
+
+                      li {
+                        display: list-item !important;
+                        width: 95% !important;
+                        margin: 0;
+                        padding: 0 0 .2em 0;
+                        border: none;
+                        list-style: disc !important;
+                        font-size: .8em;
+                        margin-left: 0px;
+                      }
+                    }
+
+
+                    h1 {
+                      display: block;
+                      font-size: 1.2em;
+                      line-height: .9em;
+                    }
+
+                    h3 {
+                      font-size: .9em;
+                      text-transform: uppercase;
+                      color: #666;
+                      display: none;
+                    }
+
+                    p {
+                      width: 100%;
+                      font-weight: 100;
+                      font-size: .9em;
+                      margin: 10px 0;
+                    }
+                  }
+
+                  .fullWidth {
+                    width: 90%;
+                    img {
+                      float: right;
+                      width: 45%;
+                      padding-left: 30px;
+                      padding-top: 30px;
+
+                      @media screen and (max-width: 700px) {
+                        width: 100%;
+                        padding-bottom: 30px;
+                      }
+                    }
+                    p {
+
+                      width: 90% !important;
+                    }
+                  }
+                }
+
+          }
+
+
+
+
+
 			ul, ol, table, dl {}
 
 			ul, ol {
@@ -1602,7 +1971,7 @@ FOOTER STYLES
       font-weight: 100;
       text-align: center;
       font-size: .9em;
-
+      color: white !important;
     }
 
     ul {
