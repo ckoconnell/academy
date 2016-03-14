@@ -593,6 +593,15 @@ LANGUAGE SELECT STYLES
 
 .wooWrap {
 
+  a {
+
+    .price {
+      margin-right: 15px !important;
+    }  
+
+  }
+  
+
   nav {
     text-align: right !important;
     padding: 10px 10px 5px !important;
@@ -600,7 +609,7 @@ LANGUAGE SELECT STYLES
 
     @media screen and (max-width: $gridSize) {
       width: 15% !important;
-      min-width: 90px !important;
+      min-width: 105px !important;
       z-index: 5000 !important;
     }
     
@@ -674,8 +683,14 @@ nav {
     @media screen and (max-width: $gridSize) {
      display: inline-block;
       float: left;
-      padding-left: 25%;
+      padding-left: 43%;
     }
+
+    @media screen and (max-width: 485px) {
+    
+      padding-left: 31%;
+    }
+
   }
 
   ul {
@@ -961,7 +976,35 @@ ul.woocommerce-error, .woocommerce-mesasge, .woocommerce-info, .woocommerce_erro
   color: black !important;
 }
 
+.payments_methods li {
+  background: white !important;
+}
+
 .woocommerce {
+
+  a.button {
+      color: white !important;
+        background: black !important;
+        text-transform: uppercase !important;
+        cursor: pointer !important;
+        border-radius: 3px !important;
+        margin-left: 0 !important;
+        transition: all .3s !important;
+        border: 1px solid black !important;
+        font-family: $med-font !important;
+        padding: 10px 20px !important;
+        width: auto !important; 
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        display: inline-block !important; 
+    }
+
+    a.button:hover {
+        color: black !important;
+        background: white !important;
+        transition: all .5s !important;
+        border: 1px solid black !important
+    }
 
 
   .woocommerce-checkout-payment {
