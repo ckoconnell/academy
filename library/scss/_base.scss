@@ -188,6 +188,12 @@ section {
       }
 
     }
+
+    h1 br.respBr {
+          display: none !important;
+        }
+
+
   }
 }
 
@@ -713,6 +719,7 @@ nav {
       text-align: center;
       line-height: .8em;
       font-weight: 100;
+
 
       @media screen and (max-width: $gridSize) {
         width: 100%;
@@ -1454,6 +1461,21 @@ HOMEPAGE STYLES
 
           }
 
+          a.inlineLink {
+              display: inline;
+              background: none;
+              padding: 0;
+              border: none;
+              color: teal !important;
+              text-transform: none;
+              font-family: $heavy-font;
+          }
+
+          a.inlineLink:hover {
+            color: black;
+          }
+
+
           a:hover {
             color: #171717;
             background: white;
@@ -1854,11 +1876,14 @@ table tbody th {
             font-size: .9em;
             text-decoration: none;
             border-radius: 3px;
+            margin-bottom: 5px !important;
+            display: inline-block;
+            border: 1px solid black;
           }
 
           a.socialComingSoon:hover {
-            font-family: $med-font;
-            background: #333;
+            color: black !important;
+            background: white;
             transition: all .3s;
           }
 
@@ -1996,6 +2021,10 @@ table tbody th {
 
             .clinicSplitboarding {
               background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_splitboarding.jpg') no-repeat;
+            }
+
+            .clinicDinner {
+              background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2014/03/mauntain_dinner1.jpg') no-repeat;
             }
 
 
