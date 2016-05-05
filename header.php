@@ -48,7 +48,7 @@
 					<div class="quickNav">
 						<ul>
 							<a href="event-schedule/"><li>Event Schedule</li></a>
-							<a href="plan-your-trip/"><li>Plan Your Trip</li></a>
+							<a href="http://bookingarcteryxacademy.chamonix.com/" target="_blank"><li>Plan Your Trip</li></a>
 							<a href="venue-map/"><li>Venue <br class="brResp">Map</li></a>
 							<a href="contact/"><li>Contact &amp; Support</li></a>
 						</ul>

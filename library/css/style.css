@@ -2037,13 +2037,36 @@ table tbody th {
   width: 90%;
   max-width: 650px;
 }
-/* line 2198, ../scss/_base.scss */
+/* line 2190, ../scss/_base.scss */
+.entry-content dl dd a {
+  padding: 3px 10px;
+  border: 1px solid #171717;
+  border-radius: 3px;
+  background: #171717;
+  color: white !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all .3s;
+  font-size: .9em;
+}
+/* line 2202, ../scss/_base.scss */
+.entry-content dl dd a:hover {
+  padding: 3px 10px;
+  border: 1px solid #171717;
+  border-radius: 3px;
+  background: white;
+  color: #171717 !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+/* line 2221, ../scss/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #999;
   margin-bottom: 1.5em;
 }
-/* line 2203, ../scss/_base.scss */
+/* line 2226, ../scss/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -2051,34 +2074,34 @@ table tbody th {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 2212, ../scss/_base.scss */
+/* line 2235, ../scss/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #999;
 }
-/* line 2215, ../scss/_base.scss */
+/* line 2238, ../scss/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #ccc;
 }
-/* line 2220, ../scss/_base.scss */
+/* line 2243, ../scss/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #999;
 }
-/* line 2224, ../scss/_base.scss */
+/* line 2247, ../scss/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 2229, ../scss/_base.scss */
+/* line 2252, ../scss/_base.scss */
 .entry-content th {
   background-color: #ccc;
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
 }
-/* line 2234, ../scss/_base.scss */
+/* line 2257, ../scss/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 2239, ../scss/_base.scss */
+/* line 2262, ../scss/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -2086,20 +2109,20 @@ table tbody th {
   font-style: italic;
   color: #ccc;
 }
-/* line 2254, ../scss/_base.scss */
+/* line 2277, ../scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 2261, ../scss/_base.scss */
+/* line 2284, ../scss/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 2275, ../scss/_base.scss */
+/* line 2298, ../scss/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -2108,7 +2131,7 @@ table tbody th {
   max-width: 100%;
   height: auto;
 }
-/* line 2280, ../scss/_base.scss */
+/* line 2303, ../scss/_base.scss */
 .entry-content pre {
   background: #000;
   color: #ccc;
@@ -2119,20 +2142,20 @@ table tbody th {
 }
 
 /* end .entry-content */
-/* line 2291, ../scss/_base.scss */
+/* line 2314, ../scss/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 2297, ../scss/_base.scss */
+/* line 2320, ../scss/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 2303, ../scss/_base.scss */
+/* line 2326, ../scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -2143,7 +2166,7 @@ table tbody th {
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 2334, ../scss/_base.scss */
+/* line 2357, ../scss/_base.scss */
 .tags {
   margin: 0;
 }
@@ -2151,12 +2174,12 @@ table tbody th {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 2351, ../scss/_base.scss */
+/* line 2374, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 2368, ../scss/_base.scss */
+/* line 2391, ../scss/_base.scss */
 .no-widgets {
   background-color: #FFF;
   padding: 1.5em;
@@ -2169,27 +2192,27 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 2381, ../scss/_base.scss */
+/* line 2404, ../scss/_base.scss */
 .footer {
   text-transform: uppercase;
   color: #ccc;
   height: auto;
   display: block;
 }
-/* line 2387, ../scss/_base.scss */
+/* line 2410, ../scss/_base.scss */
 .footer .gridWrap {
   background: black !important;
   padding: 15px;
   height: auto;
 }
-/* line 2393, ../scss/_base.scss */
+/* line 2416, ../scss/_base.scss */
 .footer .footerLinks {
   float: right;
   width: 100%;
   position: relative;
   display: inline-block;
 }
-/* line 2399, ../scss/_base.scss */
+/* line 2422, ../scss/_base.scss */
 .footer .footerLinks .footerDetails {
   width: 30%;
   height: 100%;
@@ -2197,17 +2220,17 @@ FOOTER STYLES
   display: inline-block;
   float: left;
 }
-/* line 2406, ../scss/_base.scss */
+/* line 2429, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap {
   padding-top: 10px;
   display: inline-block;
 }
-/* line 2410, ../scss/_base.scss */
+/* line 2433, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap svg {
   width: 90%;
   max-width: 250px;
 }
-/* line 2415, ../scss/_base.scss */
+/* line 2438, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 {
   display: inline-block;
   vertical-align: top;
@@ -2219,22 +2242,22 @@ FOOTER STYLES
   text-align: right;
   color: white !important;
 }
-/* line 2426, ../scss/_base.scss */
+/* line 2449, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerEvent {
   letter-spacing: 0px;
 }
-/* line 2431, ../scss/_base.scss */
+/* line 2454, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerAcademy {
   letter-spacing: -4px;
 }
-/* line 2436, ../scss/_base.scss */
+/* line 2459, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap .logo {
   display: inline-block;
   width: 90px;
   padding-left: 5px;
   margin-top: -4px;
 }
-/* line 2444, ../scss/_base.scss */
+/* line 2467, ../scss/_base.scss */
 .footer .footerLinks .footerDetails h3 {
   font-weight: 400;
   color: white;
@@ -2243,28 +2266,28 @@ FOOTER STYLES
   text-align: left;
   margin-top: 0px;
 }
-/* line 2455, ../scss/_base.scss */
+/* line 2478, ../scss/_base.scss */
 .footer .footerLinks ul {
   width: 65%;
   float: right;
 }
-/* line 2459, ../scss/_base.scss */
+/* line 2482, ../scss/_base.scss */
 .footer .footerLinks ul a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: .7em;
 }
-/* line 2466, ../scss/_base.scss */
+/* line 2489, ../scss/_base.scss */
 .footer .footerLinks ul li {
   display: inline-block;
   width: 190px;
 }
-/* line 2473, ../scss/_base.scss */
+/* line 2496, ../scss/_base.scss */
 .footer .sponsorWrap {
   padding: 30px 0;
 }
-/* line 2476, ../scss/_base.scss */
+/* line 2499, ../scss/_base.scss */
 .footer .sponsorWrap h3 {
   text-transform: uppercase;
   font-weight: 100;
@@ -2272,11 +2295,11 @@ FOOTER STYLES
   font-size: .9em;
   color: white !important;
 }
-/* line 2484, ../scss/_base.scss */
+/* line 2507, ../scss/_base.scss */
 .footer .sponsorWrap ul {
   text-align: center;
 }
-/* line 2487, ../scss/_base.scss */
+/* line 2510, ../scss/_base.scss */
 .footer .sponsorWrap ul a {
   display: inline-block;
   width: 130px;
@@ -2284,43 +2307,43 @@ FOOTER STYLES
   padding: 35px 15px 0;
   margin: .5em .5em;
 }
-/* line 2496, ../scss/_base.scss */
+/* line 2519, ../scss/_base.scss */
 .footer .sponsorWrap ul li {
   width: 100%;
   height: 100%;
   list-style: none;
 }
-/* line 2502, ../scss/_base.scss */
+/* line 2525, ../scss/_base.scss */
 .footer .sponsorWrap ul .arcteryx {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 2508, ../scss/_base.scss */
+/* line 2531, ../scss/_base.scss */
 .footer .sponsorWrap ul .montblanc {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 2514, ../scss/_base.scss */
+/* line 2537, ../scss/_base.scss */
 .footer .sponsorWrap ul .gore {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 140px;
 }
-/* line 2520, ../scss/_base.scss */
+/* line 2543, ../scss/_base.scss */
 .footer .sponsorWrap ul .petzl {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 2526, ../scss/_base.scss */
+/* line 2549, ../scss/_base.scss */
 .footer .sponsorWrap ul .msr {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 2534, ../scss/_base.scss */
+/* line 2557, ../scss/_base.scss */
 .footer p {
   font-weight: 900;
   font-size: .8em;

@@ -2186,6 +2186,29 @@ table tbody th {
                 color: #171717;
                 width: 90%;
                 max-width: 650px;
+
+                a {
+                  padding: 3px 10px;
+                  border: 1px solid #171717;
+                  border-radius: 3px;
+                  background: #171717;
+                  color: white !important;
+                  text-decoration: none !important;
+                  text-transform: uppercase;
+                  transition: all .3s;
+                  font-size: .9em;
+                }
+
+                a:hover {
+                  padding: 3px 10px;
+                  border: 1px solid #171717;
+                  border-radius: 3px;
+                  background: white;
+                  color: #171717 !important;
+                  text-decoration: none !important;
+                  text-transform: uppercase;
+                  transition: all .5s;
+                }
               }
             }
 
