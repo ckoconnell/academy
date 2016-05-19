@@ -1665,6 +1665,7 @@ table tbody th {
   /* Athlete Page Layout */
   /* Seminar Page Layout */
   /* Event Schedule Page Layout */
+  /* Event Schedule Page Layout */
   /* End Event Schedule Page Layout */
 }
 /* line 1813, ../scss/_base.scss */
@@ -2517,41 +2518,125 @@ table tbody th {
 .entry-content .seminarWrap ul .fullWidth p {
   width: 90% !important;
 }
-/* line 2664, ../scss/_base.scss */
+/* line 2661, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 0 0 30px 15px !important;
+}
+/* line 2668, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap {
+  position: relative;
+  display: block;
+  padding-left: 15px;
+  margin-bottom: 60px;
+}
+/* line 2675, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap h3 {
+  margin-left: 0px !important;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+/* line 2682, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap h4 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+/* line 2687, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .topMargin {
+  margin-top: 30px;
+}
+/* line 2691, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .eventCategory {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+/* line 2697, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem {
+  width: 98%;
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  /* line 2697, ../scss/_base.scss */
+  .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+/* line 2710, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTitle {
+  position: relative;
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  /* line 2710, ../scss/_base.scss */
+  .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTitle {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* line 2724, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTime {
+  position: relative;
+  display: inline-block;
+  width: 18%;
+  min-width: 170px;
+  vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+  /* line 2724, ../scss/_base.scss */
+  .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTime {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* line 2737, ../scss/_base.scss */
+.entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem p {
+  display: none !important;
+  height: 1px !important;
+}
+/* line 2753, ../scss/_base.scss */
 .entry-content .scheduleWrap h1 {
   text-transform: uppercase;
   font-size: 3em;
   padding: 0 0 30px 15px !important;
 }
-/* line 2671, ../scss/_base.scss */
+/* line 2760, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap {
   position: relative;
   display: block;
   padding-left: 15px;
   margin-bottom: 60px;
 }
-/* line 2678, ../scss/_base.scss */
+/* line 2767, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap h3 {
   margin-left: 0px !important;
   font-size: 1.5em;
   margin-bottom: .5em;
   margin-top: 1.5em;
 }
-/* line 2685, ../scss/_base.scss */
+/* line 2774, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap h4 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-/* line 2690, ../scss/_base.scss */
+/* line 2779, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .topMargin {
   margin-top: 30px;
 }
-/* line 2694, ../scss/_base.scss */
+/* line 2783, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventCategory {
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 2700, ../scss/_base.scss */
+/* line 2789, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem {
   width: 98%;
   position: relative;
@@ -2560,14 +2645,14 @@ table tbody th {
   vertical-align: top;
 }
 @media screen and (max-width: 600px) {
-  /* line 2700, ../scss/_base.scss */
+  /* line 2789, ../scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem {
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
     margin-top: 10px;
   }
 }
-/* line 2713, ../scss/_base.scss */
+/* line 2802, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventTitle {
   position: relative;
   display: inline-block;
@@ -2576,13 +2661,13 @@ table tbody th {
   vertical-align: top;
 }
 @media screen and (max-width: 600px) {
-  /* line 2713, ../scss/_base.scss */
+  /* line 2802, ../scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventTitle {
     width: 100%;
     max-width: 100%;
   }
 }
-/* line 2726, ../scss/_base.scss */
+/* line 2815, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventLocation {
   position: relative;
   display: inline-block;
@@ -2591,13 +2676,13 @@ table tbody th {
   vertical-align: top;
 }
 @media screen and (max-width: 600px) {
-  /* line 2726, ../scss/_base.scss */
+  /* line 2815, ../scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventLocation {
     width: 100%;
     max-width: 100%;
   }
 }
-/* line 2739, ../scss/_base.scss */
+/* line 2828, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventTime {
   position: relative;
   display: inline-block;
@@ -2606,37 +2691,37 @@ table tbody th {
   vertical-align: top;
 }
 @media screen and (max-width: 600px) {
-  /* line 2739, ../scss/_base.scss */
+  /* line 2828, ../scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventTime {
     width: 100%;
     max-width: 100%;
   }
 }
-/* line 2752, ../scss/_base.scss */
+/* line 2841, ../scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem p {
   display: none !important;
   height: 1px !important;
 }
-/* line 2776, ../scss/_base.scss */
+/* line 2865, ../scss/_base.scss */
 .entry-content ul {
   padding: 0 0 1.5em 3em;
 }
-/* line 2779, ../scss/_base.scss */
+/* line 2868, ../scss/_base.scss */
 .entry-content ul li {
   font-size: .9em;
   list-style: square;
 }
-/* line 2786, ../scss/_base.scss */
+/* line 2875, ../scss/_base.scss */
 .entry-content dl {
   padding: 0 0 1.5em 3em;
 }
-/* line 2789, ../scss/_base.scss */
+/* line 2878, ../scss/_base.scss */
 .entry-content dl dt {
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
 }
-/* line 2795, ../scss/_base.scss */
+/* line 2884, ../scss/_base.scss */
 .entry-content dl dd {
   font-size: .9em;
   font-weight: 100;
@@ -2644,7 +2729,7 @@ table tbody th {
   width: 90%;
   max-width: 650px;
 }
-/* line 2802, ../scss/_base.scss */
+/* line 2891, ../scss/_base.scss */
 .entry-content dl dd a {
   padding: 3px 10px;
   border: 1px solid #171717;
@@ -2656,7 +2741,7 @@ table tbody th {
   transition: all .3s;
   font-size: .9em;
 }
-/* line 2814, ../scss/_base.scss */
+/* line 2903, ../scss/_base.scss */
 .entry-content dl dd a:hover {
   padding: 3px 10px;
   border: 1px solid #171717;
@@ -2667,13 +2752,13 @@ table tbody th {
   text-transform: uppercase;
   transition: all .5s;
 }
-/* line 2833, ../scss/_base.scss */
+/* line 2922, ../scss/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #999;
   margin-bottom: 1.5em;
 }
-/* line 2838, ../scss/_base.scss */
+/* line 2927, ../scss/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -2681,34 +2766,34 @@ table tbody th {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 2847, ../scss/_base.scss */
+/* line 2936, ../scss/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #999;
 }
-/* line 2850, ../scss/_base.scss */
+/* line 2939, ../scss/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #ccc;
 }
-/* line 2855, ../scss/_base.scss */
+/* line 2944, ../scss/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #999;
 }
-/* line 2859, ../scss/_base.scss */
+/* line 2948, ../scss/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 2864, ../scss/_base.scss */
+/* line 2953, ../scss/_base.scss */
 .entry-content th {
   background-color: #ccc;
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
 }
-/* line 2869, ../scss/_base.scss */
+/* line 2958, ../scss/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 2874, ../scss/_base.scss */
+/* line 2963, ../scss/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -2716,20 +2801,20 @@ table tbody th {
   font-style: italic;
   color: #ccc;
 }
-/* line 2889, ../scss/_base.scss */
+/* line 2978, ../scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 2896, ../scss/_base.scss */
+/* line 2985, ../scss/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 2910, ../scss/_base.scss */
+/* line 2999, ../scss/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -2738,7 +2823,7 @@ table tbody th {
   max-width: 100%;
   height: auto;
 }
-/* line 2915, ../scss/_base.scss */
+/* line 3004, ../scss/_base.scss */
 .entry-content pre {
   background: #000;
   color: #ccc;
@@ -2749,20 +2834,20 @@ table tbody th {
 }
 
 /* end .entry-content */
-/* line 2926, ../scss/_base.scss */
+/* line 3015, ../scss/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 2932, ../scss/_base.scss */
+/* line 3021, ../scss/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 2938, ../scss/_base.scss */
+/* line 3027, ../scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -2773,7 +2858,7 @@ table tbody th {
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 2969, ../scss/_base.scss */
+/* line 3058, ../scss/_base.scss */
 .tags {
   margin: 0;
 }
@@ -2781,12 +2866,12 @@ table tbody th {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 2986, ../scss/_base.scss */
+/* line 3075, ../scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 3003, ../scss/_base.scss */
+/* line 3092, ../scss/_base.scss */
 .no-widgets {
   background-color: #FFF;
   padding: 1.5em;
@@ -2799,27 +2884,27 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 3016, ../scss/_base.scss */
+/* line 3105, ../scss/_base.scss */
 .footer {
   text-transform: uppercase;
   color: #ccc;
   height: auto;
   display: block;
 }
-/* line 3022, ../scss/_base.scss */
+/* line 3111, ../scss/_base.scss */
 .footer .gridWrap {
   background: black !important;
   padding: 15px;
   height: auto;
 }
-/* line 3028, ../scss/_base.scss */
+/* line 3117, ../scss/_base.scss */
 .footer .footerLinks {
   float: right;
   width: 100%;
   position: relative;
   display: inline-block;
 }
-/* line 3034, ../scss/_base.scss */
+/* line 3123, ../scss/_base.scss */
 .footer .footerLinks .footerDetails {
   width: 30%;
   height: 100%;
@@ -2827,17 +2912,17 @@ FOOTER STYLES
   display: inline-block;
   float: left;
 }
-/* line 3041, ../scss/_base.scss */
+/* line 3130, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap {
   padding-top: 10px;
   display: inline-block;
 }
-/* line 3045, ../scss/_base.scss */
+/* line 3134, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap svg {
   width: 90%;
   max-width: 250px;
 }
-/* line 3050, ../scss/_base.scss */
+/* line 3139, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 {
   display: inline-block;
   vertical-align: top;
@@ -2849,22 +2934,22 @@ FOOTER STYLES
   text-align: right;
   color: white !important;
 }
-/* line 3061, ../scss/_base.scss */
+/* line 3150, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerEvent {
   letter-spacing: 0px;
 }
-/* line 3066, ../scss/_base.scss */
+/* line 3155, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerAcademy {
   letter-spacing: -4px;
 }
-/* line 3071, ../scss/_base.scss */
+/* line 3160, ../scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap .logo {
   display: inline-block;
   width: 90px;
   padding-left: 5px;
   margin-top: -4px;
 }
-/* line 3079, ../scss/_base.scss */
+/* line 3168, ../scss/_base.scss */
 .footer .footerLinks .footerDetails h3 {
   font-weight: 400;
   color: white;
@@ -2873,28 +2958,28 @@ FOOTER STYLES
   text-align: left;
   margin-top: 0px;
 }
-/* line 3090, ../scss/_base.scss */
+/* line 3179, ../scss/_base.scss */
 .footer .footerLinks ul {
   width: 65%;
   float: right;
 }
-/* line 3094, ../scss/_base.scss */
+/* line 3183, ../scss/_base.scss */
 .footer .footerLinks ul a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: .7em;
 }
-/* line 3101, ../scss/_base.scss */
+/* line 3190, ../scss/_base.scss */
 .footer .footerLinks ul li {
   display: inline-block;
   width: 190px;
 }
-/* line 3108, ../scss/_base.scss */
+/* line 3197, ../scss/_base.scss */
 .footer .sponsorWrap {
   padding: 30px 0;
 }
-/* line 3111, ../scss/_base.scss */
+/* line 3200, ../scss/_base.scss */
 .footer .sponsorWrap h3 {
   text-transform: uppercase;
   font-weight: 100;
@@ -2902,11 +2987,11 @@ FOOTER STYLES
   font-size: .9em;
   color: white !important;
 }
-/* line 3119, ../scss/_base.scss */
+/* line 3208, ../scss/_base.scss */
 .footer .sponsorWrap ul {
   text-align: center;
 }
-/* line 3122, ../scss/_base.scss */
+/* line 3211, ../scss/_base.scss */
 .footer .sponsorWrap ul a {
   display: inline-block;
   width: 130px;
@@ -2914,43 +2999,43 @@ FOOTER STYLES
   padding: 35px 15px 0;
   margin: .5em .5em;
 }
-/* line 3131, ../scss/_base.scss */
+/* line 3220, ../scss/_base.scss */
 .footer .sponsorWrap ul li {
   width: 100%;
   height: 100%;
   list-style: none;
 }
-/* line 3137, ../scss/_base.scss */
+/* line 3226, ../scss/_base.scss */
 .footer .sponsorWrap ul .arcteryx {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 3143, ../scss/_base.scss */
+/* line 3232, ../scss/_base.scss */
 .footer .sponsorWrap ul .montblanc {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 3149, ../scss/_base.scss */
+/* line 3238, ../scss/_base.scss */
 .footer .sponsorWrap ul .gore {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 140px;
 }
-/* line 3155, ../scss/_base.scss */
+/* line 3244, ../scss/_base.scss */
 .footer .sponsorWrap ul .petzl {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
-/* line 3161, ../scss/_base.scss */
+/* line 3250, ../scss/_base.scss */
 .footer .sponsorWrap ul .msr {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
-/* line 3169, ../scss/_base.scss */
+/* line 3258, ../scss/_base.scss */
 .footer p {
   font-weight: 900;
   font-size: .8em;

@@ -2654,7 +2654,96 @@ table tbody th {
 
 
 
+/* Event Schedule Page Layout */
 
+      .seminarScheduleWrap {
+
+          h1 {
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 0 0 30px 15px !important;
+
+          }
+
+          .seminarCatWrap {
+            position: relative;
+            display: block;
+            padding-left: 15px;
+            margin-bottom: 60px;
+
+
+            h3 {
+              margin-left: 0px !important;
+              font-size: 1.5em;
+              margin-bottom: 0;
+              margin-top: 1.5em;
+            }
+
+            h4 {
+              text-transform: uppercase;
+              margin-bottom: 5px;
+            }
+
+            .topMargin {
+              margin-top: 30px;
+            }
+
+            .eventCategory {
+              font-weight: 900;
+              text-transform: uppercase;
+            
+            }
+
+            .seminarItem {
+              width: 98%;
+              position: relative;
+              display: block;
+              margin-bottom: 0;
+              vertical-align: top;
+
+              @media screen and (max-width: 600px) {
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 15px;
+                margin-top: 15px;
+              }
+
+              .seminarTitle {
+                position: relative;
+                display: inline-block;
+                width: 65%;
+               
+                vertical-align: top;
+
+                @media screen and (max-width: 600px) {
+                  width: 100%;
+                  max-width: 100%;
+                }
+              }
+
+
+              .seminarTime {
+                position: relative;
+                display: inline-block;
+                width: 18%;
+                min-width: 170px;
+                vertical-align: top;
+
+                @media screen and (max-width: 600px) {
+                  width: 100%;
+                  max-width: 100%;
+                }
+              }
+
+              p {
+                display: none !important;
+                height: 1px !important;
+              }
+
+            }
+
+          }
+
+        }
 
 
  /* Event Schedule Page Layout */
