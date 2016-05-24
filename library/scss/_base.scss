@@ -2654,7 +2654,208 @@ table tbody th {
 
 
 
-/* Event Schedule Page Layout */
+
+
+ /* Alpine Village Page Layout */
+
+        .villageWrap {
+            width: 100%;
+            position: relative;
+            display: block;
+
+            .villageBG {
+              width: 100%;
+              height: 250px;
+              margin: 0;
+              padding: 0;
+              background-size: cover !important;
+
+              @media screen and (max-width: 700px) {
+                height: 350px;
+              }
+
+              @media screen and (max-width: 500px) {
+                height: 300px;
+              }
+            }
+
+            .villageBouldering {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageBouldering.jpg');
+              background-size: cover;
+              background-position: center right;
+            }
+
+            .villageBigwall {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageBigwall.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villageRoute {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageRoute.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villageRunning {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageRunning.png');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villageNutrition {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageNutrition.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villageShelters {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageShelter.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villagePhoto {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villagePhoto.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .villageApparel {
+              background:url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageApparel.jpg');
+              background-size: cover;
+              background-position: center center;
+            }
+            
+             h1 {
+                margin-top: 15px;
+                text-transform: uppercase;
+                font-family: 'Avenir LT W01_85 Heavy1475544';
+                font-weight: 900;
+              }
+
+              p {
+                margin: 0 auto;
+                width: 70%;
+
+                @media screen and (max-width: 700px) {
+                  width: 90%;
+                  text-align: left;
+                }
+              }
+
+              ul {
+                  display: block;
+                  vertical-align: top;
+
+                  li {
+                    width: 42%;
+                    margin: 30px 2%;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    text-align: left;
+                    vertical-align: top;
+                    list-style: none !important;
+                    display: inline-block !important;
+
+                    h5 {
+                      letter-spacing: 0px !important;
+                      padding: 0 0 0 1em !important;
+                      line-height: 1em !important;
+                    }
+
+                    a {
+                      color: white !important;
+                      padding: 5px 10px;
+                      background: black;
+                      border-radius: 3px;
+                      text-transform: uppercase;
+                      transition: all .6s;
+                      border: 1px solid black !important;
+                      display: inline-block;
+                      margin-top: -5px;
+                      margin-bottom: 15px;
+                      text-decoration: none;
+
+                      display: none !important;
+                    }
+
+                    a:hover {
+                      color: #171717 !important;
+                      background: white !important;
+                      transition: all .3s !important;
+                      border: 1px solid black !important;
+                    }
+
+
+                    @media screen and (max-width: 700px) {
+                      width: 90%;
+                    }
+
+                    ul {
+                      list-style: disc !important;
+
+                      li {
+                        display: list-item !important;
+                        width: 95% !important;
+                        margin: 0;
+                        padding: 0 0 .2em 0;
+                        border: none;
+                        list-style: disc !important;
+                        font-size: .8em;
+                        margin-left: 0px;
+                      }
+                    }
+
+
+                    h1 {
+                      display: block;
+                      font-size: 1.2em;
+                      line-height: .9em;
+                    }
+
+                    h3 {
+                      font-size: .9em;
+                      text-transform: uppercase;
+                      color: #666;
+                      display: none;
+                    }
+
+                    p {
+                      width: 100%;
+                      font-weight: 100;
+                      font-size: .9em;
+                      margin: 10px 0;
+                    }
+                  }
+
+                  .fullWidth {
+                    width: 90%;
+                    img {
+                      float: right;
+                      width: 45%;
+                      padding-left: 30px;
+                      padding-top: 30px;
+
+                      @media screen and (max-width: 700px) {
+                        width: 100%;
+                        padding-bottom: 30px;
+                      }
+                    }
+                    p {
+
+                      width: 90% !important;
+                    }
+                  }
+                }
+
+          }
+
+
+
+
+
+/* Seminar Schedule Page Layout */
 
       .seminarScheduleWrap {
 

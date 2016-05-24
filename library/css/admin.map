@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/admin.css",
+	"sources": [
+		"../scss/admin.scss"
+	],
+	"sourcesContent": [
+		"/******************************************************************\r\nSite Name:\r\nAuthor:\r\n\r\nStylesheet: Admin Stylesheet\r\n\r\nIf you like living on the edge, you can add some styles here to\r\ncustomize the dashboard and WordPress admin area. This stylesheet\r\nis empty, but you can just start dropping your styles here to\r\nstart customizing. All admin functions are located in lib/admin/\r\n\r\n******************************************************************/"
+	],
+	"mappings": "AAAA;;;;;;;;;;;mEAWmE",
+	"names": []
+}
