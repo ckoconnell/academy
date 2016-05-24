@@ -1287,6 +1287,10 @@ HOMEPAGE STYLES
         @media screen and (max-width: $tabletBP) {
           width: 100%;
         }
+
+        @media screen and (max-width: 520px) {
+          height: auto;
+        }
       }
 
       .homeOneThird {
@@ -1320,6 +1324,10 @@ HOMEPAGE STYLES
           vertical-align: top;
           position: relative;
           overflow: hidden;
+
+          @media screen and (max-width: 600px) {
+            height: auto;
+          }
 
           h1 {
             font-weight: 400;
@@ -1415,12 +1423,13 @@ HOMEPAGE STYLES
           width: 55%;
           height: 100%;
           float: right;
-          background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/03/academy-header-2.jpg') no-repeat;
+          background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/homeSeminar.jpg') no-repeat;
           background-size: cover;
-          background-position: center bottom;
+          background-position: right bottom;
 
           @media screen and (max-width: 520px) {
-            display: none;
+            width: 100%;
+            height: 200px;
           }
         }
 
@@ -1436,6 +1445,10 @@ HOMEPAGE STYLES
           h1 {
             margin-top: 15%;
             color: black !important;
+
+            @media screen and (max-width: 520px) {
+              margin-top: 15px;
+            }
           }
 
           p {
@@ -2578,7 +2591,6 @@ table tbody th {
                       margin-bottom: 15px;
                       text-decoration: none;
 
-                      display: none !important;
                     }
 
                     a:hover {
@@ -2883,6 +2895,7 @@ table tbody th {
             h4 {
               text-transform: uppercase;
               margin-bottom: 5px;
+              display: none !important;
             }
 
             .topMargin {
@@ -3053,6 +3066,35 @@ table tbody th {
         }
 
     /* End Event Schedule Page Layout */
+
+
+
+   /*  Venue Map Embed Code */
+
+    .mapWrap {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      position: relative;
+      text-align: center;
+      padding: 30px 0;
+
+      iframe {
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+
+
+        @media screen and (max-width: 450px) {
+          min-height: 450px;
+        }
+      }
+    }
+
+
+
+
+
 
 
 			ul, ol, table, dl {}

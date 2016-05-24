@@ -1305,32 +1305,39 @@ HOMEPAGE STYLES
   }
 }
 
-/* line 1292, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+@media screen and (max-width: 520px) {
+  /* line 1279, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  .homeMarch15 .gridWrap ul .homeTwoThird {
+    height: auto;
+  }
+}
+
+/* line 1296, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeOneThird {
   width: 30%;
   height: 400px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1292, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1296, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .homeMarch15 .gridWrap ul .homeOneThird {
     width: 100%;
   }
 }
 
-/* line 1301, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1305, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .introHomeMarch15 {
   background: none;
   text-align: center;
 }
 
-/* line 1310, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1314, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull {
   width: 100%;
   padding: 0 !important;
 }
 
-/* line 1314, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1318, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader {
   width: 100%;
   height: 60px;
@@ -1342,7 +1349,14 @@ HOMEPAGE STYLES
   overflow: hidden;
 }
 
-/* line 1324, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+@media screen and (max-width: 600px) {
+  /* line 1318, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  .homeMarch15 .gridWrap ul .homeFull .socialHeader {
+    height: auto;
+  }
+}
+
+/* line 1332, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h1 {
   font-weight: 400;
   text-transform: uppercase;
@@ -1352,12 +1366,12 @@ HOMEPAGE STYLES
   line-height: 1em;
 }
 
-/* line 1333, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1341, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h1 .bolder {
   font-weight: 900;
 }
 
-/* line 1338, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1346, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader h3 {
   color: white;
   vertical-align: top;
@@ -1366,20 +1380,20 @@ HOMEPAGE STYLES
   font-size: .7em !important;
 }
 
-/* line 1346, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1354, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos {
   position: absolute;
   right: 2em;
   top: 10px;
 }
 
-/* line 1351, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1359, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul {
   text-align: center;
   padding-top: 5px;
 }
 
-/* line 1355, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1363, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul a {
   text-decoration: none;
   border: none;
@@ -1387,12 +1401,12 @@ HOMEPAGE STYLES
   margin-top: 0;
 }
 
-/* line 1362, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1370, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul a:hover {
   background: none;
 }
 
-/* line 1367, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1375, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul li {
   display: inline-block;
   width: 35px;
@@ -1402,26 +1416,26 @@ HOMEPAGE STYLES
   color: white;
 }
 
-/* line 1376, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1384, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta {
   width: 20px;
   color: white;
   fill: white;
 }
 
-/* line 1381, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1389, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta svg {
   width: 30px;
 }
 
-/* line 1386, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1394, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialFacebook {
   width: 25px;
   fill: white;
   margin-left: 15px;
 }
 
-/* line 1392, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1400, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialTwitter {
   width: 25px;
   fill: white;
@@ -1429,54 +1443,62 @@ HOMEPAGE STYLES
   transition: all .5s;
 }
 
-/* line 1399, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1407, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialTwitter:hover, .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialInsta:hover, .homeMarch15 .gridWrap ul .homeFull .socialHeader .socialLogos ul .socialFacebook:hover {
   fill: #aaa;
   transition: all 1s;
 }
 
-/* line 1409, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1417, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .marginRight {
   margin-right: 3%;
 }
 
-/* line 1414, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1422, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeImg {
   width: 55%;
   height: 100%;
   float: right;
-  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/03/academy-header-2.jpg") no-repeat;
+  background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/homeSeminar.jpg") no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: right bottom;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 1414, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1422, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .homeMarch15 .gridWrap ul .clinicCTA .homeImg {
-    display: none;
+    width: 100%;
+    height: 200px;
   }
 }
 
-/* line 1427, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1436, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent {
   width: 40%;
   float: left;
 }
 
 @media screen and (max-width: 520px) {
-  /* line 1427, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1436, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .homeMarch15 .gridWrap ul .clinicCTA .homeContent {
     width: 100%;
   }
 }
 
-/* line 1436, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1445, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent h1 {
   margin-top: 15%;
   color: black !important;
 }
 
-/* line 1441, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+@media screen and (max-width: 520px) {
+  /* line 1445, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  .homeMarch15 .gridWrap ul .clinicCTA .homeContent h1 {
+    margin-top: 15px;
+  }
+}
+
+/* line 1454, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent p {
   text-align: left;
   line-height: 1em;
@@ -1484,7 +1506,7 @@ HOMEPAGE STYLES
   margin-top: 1em;
 }
 
-/* line 1448, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1461, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a {
   display: inline-block;
   text-decoration: none;
@@ -1500,7 +1522,7 @@ HOMEPAGE STYLES
   transition: all .3s;
 }
 
-/* line 1464, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1477, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a.inlineLink {
   display: inline;
   background: none;
@@ -1511,18 +1533,18 @@ HOMEPAGE STYLES
   font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
 }
 
-/* line 1474, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1487, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a.inlineLink:hover {
   color: black;
 }
 
-/* line 1479, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1492, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .clinicCTA .homeContent a:hover {
   color: #171717;
   background: white;
 }
 
-/* line 1487, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1500, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
@@ -1530,18 +1552,18 @@ HOMEPAGE STYLES
   height: 45%;
 }
 
-/* line 1494, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1507, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent {
   width: 100%;
 }
 
-/* line 1497, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1510, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent h1 {
   margin-top: -8px;
   color: black !important;
 }
 
-/* line 1502, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1515, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent p {
   text-align: left;
   line-height: 1em;
@@ -1549,7 +1571,7 @@ HOMEPAGE STYLES
   margin-top: .7em;
 }
 
-/* line 1509, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1522, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent a {
   display: inline-block;
   text-decoration: none;
@@ -1565,13 +1587,13 @@ HOMEPAGE STYLES
   transition: all .3s;
 }
 
-/* line 1525, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1538, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .contestCTA .homeContent a:hover {
   color: #171717;
   background: white;
 }
 
-/* line 1534, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1547, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .athleteCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
@@ -1579,12 +1601,12 @@ HOMEPAGE STYLES
   height: 45%;
 }
 
-/* line 1541, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1554, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .athleteCTA .homeContent {
   width: 100%;
 }
 
-/* line 1547, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1560, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .filmCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
@@ -1592,12 +1614,12 @@ HOMEPAGE STYLES
   height: 45%;
 }
 
-/* line 1554, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1567, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .filmCTA .homeContent {
   width: 100%;
 }
 
-/* line 1560, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1573, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .seminarCTA .homeImg {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-size: cover;
@@ -1605,17 +1627,17 @@ HOMEPAGE STYLES
   height: 45%;
 }
 
-/* line 1567, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1580, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .seminarCTA .homeContent {
   width: 100%;
 }
 
-/* line 1573, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1586, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul .trailer {
   background: none !important;
 }
 
-/* line 1578, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1591, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li {
   display: inline-block;
   vertical-align: top;
@@ -1624,19 +1646,19 @@ HOMEPAGE STYLES
   margin-bottom: 30px;
 }
 
-/* line 1585, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1598, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li .homeImg {
   display: inline-block;
 }
 
-/* line 1589, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1602, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li .homeContent {
   display: inline-block;
   padding: 20px;
   text-align: center;
 }
 
-/* line 1595, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1608, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li h1 {
   font-size: 1.4em;
   font-weight: 900;
@@ -1645,12 +1667,12 @@ HOMEPAGE STYLES
   text-align: left;
 }
 
-/* line 1603, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1616, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li p {
   text-align: left;
 }
 
-/* line 1607, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1620, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li a {
   display: inline-block;
   text-decoration: none;
@@ -1663,14 +1685,14 @@ HOMEPAGE STYLES
   transition: all .6s;
 }
 
-/* line 1619, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1632, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li a:hover {
   background: #171717;
   color: white;
   transition: all .8s;
 }
 
-/* line 1625, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1638, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .homeMarch15 .gridWrap ul li iframe {
   width: 100%;
   height: 480px;
@@ -1679,25 +1701,25 @@ HOMEPAGE STYLES
 /*********************
 SOCIAL FEED STYLES
 *********************/
-/* line 1644, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1657, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialIntro {
   display: block;
   height: 120px;
   padding: 15px;
 }
 
-/* line 1650, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1663, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed h1 {
   font-size: 1.7em;
   text-transform: uppercase;
 }
 
-/* line 1655, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1668, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .bolder {
   font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
 }
 
-/* line 1659, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1672, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed h3 {
   font-size: 1em;
   text-transform: uppercase;
@@ -1706,20 +1728,20 @@ SOCIAL FEED STYLES
   line-height: 1.1em;
 }
 
-/* line 1667, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1680, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos {
   position: absolute;
   right: 2em;
   top: 10px;
 }
 
-/* line 1672, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1685, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul {
   text-align: center;
   padding-top: 5px;
 }
 
-/* line 1676, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1689, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul a {
   text-decoration: none;
   border: none;
@@ -1727,12 +1749,12 @@ SOCIAL FEED STYLES
   margin-top: 0;
 }
 
-/* line 1683, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1696, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul a:hover {
   background: none;
 }
 
-/* line 1688, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1701, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul li {
   display: inline-block;
   width: 35px;
@@ -1742,26 +1764,26 @@ SOCIAL FEED STYLES
   color: white;
 }
 
-/* line 1697, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1710, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul .socialInsta {
   width: 20px;
   color: white;
   fill: #171717;
 }
 
-/* line 1702, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1715, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul .socialInsta svg {
   width: 30px;
 }
 
-/* line 1707, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1720, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul .socialFacebook {
   width: 25px;
   fill: #171717;
   margin-left: 15px;
 }
 
-/* line 1713, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1726, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul .socialTwitter {
   width: 25px;
   fill: #171717;
@@ -1769,13 +1791,13 @@ SOCIAL FEED STYLES
   transition: all .5s;
 }
 
-/* line 1720, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1733, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed .socialLogos ul .socialTwitter:hover, .socialEmbed .socialLogos ul .socialInsta:hover, .socialEmbed .socialLogos ul .socialFacebook:hover {
   fill: #aaa;
   transition: all 1s;
 }
 
-/* line 1727, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1740, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .socialEmbed iframe {
   width: 100%;
   height: 700px;
@@ -1785,38 +1807,38 @@ SOCIAL FEED STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 1740, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1753, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 #content {
   margin-top: 1.5em;
 }
 
-/* line 1744, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1757, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry {
   color: black !important;
 }
 
-/* line 1748, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1761, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry p {
   color: black !important;
 }
 
-/* line 1752, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1765, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 table tbody th {
   background: white !important;
 }
 
-/* line 1757, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1770, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .hentry {
   background-color: #FFF;
 }
 
-/* line 1767, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1780, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 1774, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1787, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -1833,7 +1855,7 @@ table tbody th {
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 1799, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1812, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .byline {
   color: #ccc;
   font-style: italic;
@@ -1841,7 +1863,7 @@ table tbody th {
 }
 
 /* entry content */
-/* line 1809, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1822, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content {
   padding: 1.5em 1.5em 0;
   padding-bottom: 90px;
@@ -1852,21 +1874,22 @@ table tbody th {
   /* Seminar Schedule Page Layout */
   /* Event Schedule Page Layout */
   /* End Event Schedule Page Layout */
+  /*  Venue Map Embed Code */
 }
 
-/* line 1813, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1826, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content header {
   background: blue !important;
 }
 
-/* line 1818, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1831, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content h1 {
   font-size: 1em;
   padding: 0 0 0 1em;
   font-weight: 900;
 }
 
-/* line 1824, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1837, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content h1.page-title {
   font-weight: 700;
   font-size: 2.5em;
@@ -1875,7 +1898,7 @@ table tbody th {
   color: #171717;
 }
 
-/* line 1832, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1845, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content h3 {
   width: 90%;
   max-width: 650px;
@@ -1889,13 +1912,13 @@ table tbody th {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1832, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1845, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content h3 {
     width: 95%;
   }
 }
 
-/* line 1848, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1861, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content p {
   width: 95%;
   max-width: 650px;
@@ -1905,24 +1928,24 @@ table tbody th {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1848, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1861, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content p {
     width: 95%;
   }
 }
 
-/* line 1860, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1873, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .finePrint {
   font-size: .7em;
 }
 
-/* line 1864, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1877, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content a {
   color: teal !important;
   font-family: "Avenir LT W01_65 Medium1475532", sans-serif;
 }
 
-/* line 1869, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1882, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content a.socialComingSoon {
   text-transform: uppercase;
   padding: 8px 18px;
@@ -1938,14 +1961,14 @@ table tbody th {
   border: 1px solid black;
 }
 
-/* line 1884, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1897, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content a.socialComingSoon:hover {
   color: black !important;
   background: white;
   transition: all .3s;
 }
 
-/* line 1890, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1903, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content a.contestLink {
   display: inline-block;
   text-decoration: none;
@@ -1960,20 +1983,20 @@ table tbody th {
   transition: all .3s;
 }
 
-/* line 1904, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1917, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content a.contestLink:hover {
   color: white !important;
   background: #171717;
 }
 
-/* line 1911, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1924, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap {
   width: 100%;
   position: relative;
   display: block;
 }
 
-/* line 1916, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1929, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicBG {
   width: 100%;
   height: 250px;
@@ -1983,141 +2006,141 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 1916, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1929, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .clinicWrap .clinicBG {
     height: 350px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  /* line 1916, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 1929, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .clinicWrap .clinicBG {
     height: 300px;
   }
 }
 
-/* line 1932, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1945, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicAcclimitization {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_acclimatization.jpg") no-repeat;
 }
 
-/* line 1936, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1949, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicGlacierPrep {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierprep.jpg") no-repeat;
   background-position: right;
 }
 
-/* line 1941, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1954, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicSuuntoNav {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_suuntonav.jpg") no-repeat;
 }
 
-/* line 1945, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1958, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicFirstAid {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_firstaid.jpg") no-repeat;
 }
 
-/* line 1949, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1962, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicBasicMountaineering {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_basicmountaineering.jpg") no-repeat;
 }
 
-/* line 1953, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1966, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicTechAlpinism {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_advalpinism.jpg") no-repeat;
   background-position: center center !important;
 }
 
-/* line 1958, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1971, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicMultiPitch {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_multipitch.jpg") no-repeat;
 }
 
-/* line 1962, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1975, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicGlacierTour {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glaciertour.jpg") no-repeat;
 }
 
-/* line 1966, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1979, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicMSROvernight {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_msrovernight.jpg") no-repeat;
 }
 
-/* line 1970, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1983, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicPhotography {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_alpinephotography.jpg") no-repeat;
   background-position: right;
 }
 
-/* line 1975, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1988, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicTradClimbing {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_tradclimbing.jpg") no-repeat;
 }
 
-/* line 1979, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1992, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicMedicine {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_medicine.jpg") no-repeat;
 }
 
-/* line 1983, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 1996, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicDryTooling {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_drytooling.jpg") no-repeat;
   background-position: right bottom;
 }
 
-/* line 1988, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2001, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicIceClimbing {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbing.jpg") no-repeat;
 }
 
-/* line 1992, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2005, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicRescue {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_rescue.jpg") no-repeat;
 }
 
-/* line 1996, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2009, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicGrade7 {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_grade7.jpg") no-repeat;
 }
 
-/* line 2000, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2013, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicIceClimbingWmn {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_iceclimbingwmn.jpg") no-repeat;
   background-position: right;
 }
 
-/* line 2005, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2018, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicGlacierTourWmn {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_glacierwmn.jpg") no-repeat;
 }
 
-/* line 2009, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2022, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicBigWall {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bigwall.jpg") no-repeat;
 }
 
-/* line 2013, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2026, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicSkiAlpinism {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_skialpinism.jpg") no-repeat;
 }
 
-/* line 2017, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2030, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicBouldering {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_bouldering.jpg") no-repeat;
   background-position: right;
 }
 
-/* line 2022, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2035, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicSplitboarding {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/clinic_splitboarding.jpg") no-repeat;
 }
 
-/* line 2026, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2039, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap .clinicDinner {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2014/03/mauntain_dinner1.jpg") no-repeat;
 }
 
-/* line 2031, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2044, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap h1 {
   margin-top: 15px;
   text-transform: uppercase;
@@ -2125,27 +2148,27 @@ table tbody th {
   font-weight: 900;
 }
 
-/* line 2038, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2051, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap p {
   margin: 0 auto;
   width: 70%;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2038, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2051, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .clinicWrap p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 2048, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2061, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul {
   display: block;
   vertical-align: top;
 }
 
-/* line 2052, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2065, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li {
   width: 42%;
   margin: 30px 2%;
@@ -2157,14 +2180,14 @@ table tbody th {
   display: inline-block !important;
 }
 
-/* line 2062, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2075, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li h5 {
   letter-spacing: 0px !important;
   padding: 0 0 0 1em !important;
   line-height: 1em !important;
 }
 
-/* line 2068, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2081, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li a {
   color: white !important;
   padding: 5px 10px;
@@ -2178,7 +2201,7 @@ table tbody th {
   margin-bottom: 15px;
 }
 
-/* line 2081, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2094, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li a:hover {
   color: #171717 !important;
   background: white !important;
@@ -2187,18 +2210,18 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2052, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2065, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .clinicWrap ul li {
     width: 90%;
   }
 }
 
-/* line 2093, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2106, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li ul {
   list-style: disc !important;
 }
 
-/* line 2096, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2109, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li ul li {
   display: list-item !important;
   width: 95% !important;
@@ -2210,14 +2233,14 @@ table tbody th {
   margin-left: 0px;
 }
 
-/* line 2109, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2122, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li h1 {
   display: block;
   font-size: 1.2em;
   line-height: .9em;
 }
 
-/* line 2115, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2128, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
@@ -2225,7 +2248,7 @@ table tbody th {
   display: none;
 }
 
-/* line 2122, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2135, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul li p {
   width: 100%;
   font-weight: 100;
@@ -2233,12 +2256,12 @@ table tbody th {
   margin: 10px 0;
 }
 
-/* line 2130, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2143, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul .fullWidth {
   width: 90%;
 }
 
-/* line 2132, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2145, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul .fullWidth img {
   float: right;
   width: 45%;
@@ -2247,26 +2270,26 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2132, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2145, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .clinicWrap ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 2143, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2156, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .clinicWrap ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 2155, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2168, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap {
   width: 100%;
   position: relative;
   display: block;
 }
 
-/* line 2160, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2173, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteBG {
   width: 100%;
   height: 250px;
@@ -2276,180 +2299,180 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2160, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2173, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .athleteWrap .athleteBG {
     height: 350px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  /* line 2160, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2173, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .athleteWrap .athleteBG {
     height: 300px;
   }
 }
 
-/* line 2176, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2189, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteInes {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/ines.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2182, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2195, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteCaprez {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/nina.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2188, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2201, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteMina {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/mina.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2194, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2207, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athletePia {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/pia.jpg");
   background-size: cover;
   background-position: center top;
 }
 
-/* line 2200, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2213, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteStian {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/stian.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2206, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2219, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteWeldon {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/vikki.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2212, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2225, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteKaty {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/katy.jpg");
   background-size: cover;
   background-position: left center;
 }
 
-/* line 2218, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2231, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteSlot {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/slot.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2224, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2237, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteMaciej {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/maciek.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2230, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2243, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteScherer {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/scherer.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2236, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2249, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athletePaolo {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/paolo.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2242, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2255, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteSeb {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/seb.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2248, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2261, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteFlorian {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/florian.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2254, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2267, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteSchmitt {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/tanjaschmitt.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2260, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2273, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteHuey {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/huey.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2266, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2279, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteHeike {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/heikeschmitt.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2272, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2285, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteSantoire {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/isabellesantoire.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2278, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2291, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteTessa {
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2284, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2297, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteSiegrest {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/siegrist.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2290, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2303, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteMcsorley {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/mcsorley.jpg");
   background-size: cover;
   background-position: center top;
 }
 
-/* line 2296, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2309, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteGadd {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/gadd.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2302, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2315, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteJohannes {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/johanneshoffmann.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2308, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2321, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap .athleteHoffman {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/michaelhoffman.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2316, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2329, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap h1 {
   margin-top: 15px;
   text-transform: uppercase;
@@ -2457,27 +2480,27 @@ table tbody th {
   font-weight: 900;
 }
 
-/* line 2323, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2336, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap p {
   margin: 0 auto;
   width: 70%;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2323, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2336, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .athleteWrap p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 2333, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2346, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul {
   display: block;
   vertical-align: top;
 }
 
-/* line 2337, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2350, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li {
   width: 42%;
   margin: 30px 2%;
@@ -2489,7 +2512,7 @@ table tbody th {
   display: inline-block !important;
 }
 
-/* line 2347, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2360, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li h5 {
   letter-spacing: 0px !important;
   padding: 0 0 0 1em !important;
@@ -2497,18 +2520,18 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2337, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2350, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .athleteWrap ul li {
     width: 90%;
   }
 }
 
-/* line 2358, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2371, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li ul {
   list-style: disc !important;
 }
 
-/* line 2361, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2374, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li ul li {
   display: list-item !important;
   width: 95% !important;
@@ -2520,14 +2543,14 @@ table tbody th {
   margin-left: 0px;
 }
 
-/* line 2374, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2387, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li h1 {
   display: block;
   font-size: 1.2em;
   line-height: .9em;
 }
 
-/* line 2380, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2393, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
@@ -2535,7 +2558,7 @@ table tbody th {
   display: none;
 }
 
-/* line 2387, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2400, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul li p {
   width: 100%;
   font-weight: 100;
@@ -2543,12 +2566,12 @@ table tbody th {
   margin: 10px 0;
 }
 
-/* line 2395, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2408, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul .fullWidth {
   width: 90%;
 }
 
-/* line 2397, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2410, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul .fullWidth img {
   float: right;
   width: 45%;
@@ -2557,26 +2580,26 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2397, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2410, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .athleteWrap ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 2408, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2421, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .athleteWrap ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 2421, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2434, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap {
   width: 100%;
   position: relative;
   display: block;
 }
 
-/* line 2426, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2439, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarBG {
   width: 100%;
   height: 250px;
@@ -2586,118 +2609,118 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2426, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2439, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarWrap .seminarBG {
     height: 350px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  /* line 2426, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2439, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarWrap .seminarBG {
     height: 300px;
   }
 }
 
-/* line 2442, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2455, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarRisk {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2015/05/s-01-1-e1463496529342.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2448, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2461, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarAccident {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/accident.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2454, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2467, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarHeadlamp {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2015/05/s-03-e1463496037793.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2460, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2473, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarAdventureVideo {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/videomaking.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2466, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2479, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarFuel {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/fuel.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2472, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2485, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarPlanning {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/planning.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2478, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2491, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarEvolution {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/evolutionexpedition.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2484, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2497, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarOpenQA {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/openqa.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2490, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2503, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarAltitude {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/highaltitude.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2496, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2509, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarWeather {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/weather.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2502, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2515, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarLightweight {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2015/05/s-11.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2508, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2521, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarGore {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/gorecare.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2514, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2527, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarGPS {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/gps.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2520, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2533, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap .seminarEmergency {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/emergency.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2531, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2544, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap h1 {
   margin-top: 15px;
   text-transform: uppercase;
@@ -2705,27 +2728,27 @@ table tbody th {
   font-weight: 900;
 }
 
-/* line 2538, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2551, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap p {
   margin: 0 auto;
   width: 70%;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2538, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2551, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarWrap p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 2548, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2561, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul {
   display: block;
   vertical-align: top;
 }
 
-/* line 2552, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2565, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li {
   width: 42%;
   margin: 30px 2%;
@@ -2737,14 +2760,14 @@ table tbody th {
   display: inline-block !important;
 }
 
-/* line 2562, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2575, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li h5 {
   letter-spacing: 0px !important;
   padding: 0 0 0 1em !important;
   line-height: 1em !important;
 }
 
-/* line 2568, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2581, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li a {
   color: white !important;
   padding: 5px 10px;
@@ -2757,10 +2780,9 @@ table tbody th {
   margin-top: -5px;
   margin-bottom: 15px;
   text-decoration: none;
-  display: none !important;
 }
 
-/* line 2584, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2596, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li a:hover {
   color: #171717 !important;
   background: white !important;
@@ -2769,18 +2791,18 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2552, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2565, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarWrap ul li {
     width: 90%;
   }
 }
 
-/* line 2596, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2608, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li ul {
   list-style: disc !important;
 }
 
-/* line 2599, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2611, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li ul li {
   display: list-item !important;
   width: 95% !important;
@@ -2792,14 +2814,14 @@ table tbody th {
   margin-left: 0px;
 }
 
-/* line 2612, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2624, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li h1 {
   display: block;
   font-size: 1.2em;
   line-height: .9em;
 }
 
-/* line 2618, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2630, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
@@ -2807,7 +2829,7 @@ table tbody th {
   display: none;
 }
 
-/* line 2625, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2637, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul li p {
   width: 100%;
   font-weight: 100;
@@ -2815,12 +2837,12 @@ table tbody th {
   margin: 10px 0;
 }
 
-/* line 2633, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2645, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul .fullWidth {
   width: 90%;
 }
 
-/* line 2635, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2647, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul .fullWidth img {
   float: right;
   width: 45%;
@@ -2829,26 +2851,26 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2635, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2647, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarWrap ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 2646, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2658, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarWrap ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 2661, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2673, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap {
   width: 100%;
   position: relative;
   display: block;
 }
 
-/* line 2666, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2678, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageBG {
   width: 100%;
   height: 250px;
@@ -2858,76 +2880,76 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2666, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2678, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .villageWrap .villageBG {
     height: 350px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  /* line 2666, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2678, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .villageWrap .villageBG {
     height: 300px;
   }
 }
 
-/* line 2682, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2694, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageBouldering {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageBouldering.jpg");
   background-size: cover;
   background-position: center right;
 }
 
-/* line 2688, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2700, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageBigwall {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageBigwall.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2694, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2706, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageRoute {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageRoute.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2700, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2712, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageRunning {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageRunning.png");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2706, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2718, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageNutrition {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageNutrition.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2712, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2724, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageShelters {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageShelter.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2718, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2730, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villagePhoto {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villagePhoto.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2724, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2736, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap .villageApparel {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/villageApparel.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 2730, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2742, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap h1 {
   margin-top: 15px;
   text-transform: uppercase;
@@ -2935,27 +2957,27 @@ table tbody th {
   font-weight: 900;
 }
 
-/* line 2737, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2749, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap p {
   margin: 0 auto;
   width: 70%;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2737, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2749, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .villageWrap p {
     width: 90%;
     text-align: left;
   }
 }
 
-/* line 2747, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2759, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul {
   display: block;
   vertical-align: top;
 }
 
-/* line 2751, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2763, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li {
   width: 42%;
   margin: 30px 2%;
@@ -2967,14 +2989,14 @@ table tbody th {
   display: inline-block !important;
 }
 
-/* line 2761, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2773, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li h5 {
   letter-spacing: 0px !important;
   padding: 0 0 0 1em !important;
   line-height: 1em !important;
 }
 
-/* line 2767, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2779, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li a {
   color: white !important;
   padding: 5px 10px;
@@ -2990,7 +3012,7 @@ table tbody th {
   display: none !important;
 }
 
-/* line 2783, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2795, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li a:hover {
   color: #171717 !important;
   background: white !important;
@@ -2999,18 +3021,18 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2751, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2763, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .villageWrap ul li {
     width: 90%;
   }
 }
 
-/* line 2795, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2807, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li ul {
   list-style: disc !important;
 }
 
-/* line 2798, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2810, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li ul li {
   display: list-item !important;
   width: 95% !important;
@@ -3022,14 +3044,14 @@ table tbody th {
   margin-left: 0px;
 }
 
-/* line 2811, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2823, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li h1 {
   display: block;
   font-size: 1.2em;
   line-height: .9em;
 }
 
-/* line 2817, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2829, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li h3 {
   font-size: .9em;
   text-transform: uppercase;
@@ -3037,7 +3059,7 @@ table tbody th {
   display: none;
 }
 
-/* line 2824, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2836, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul li p {
   width: 100%;
   font-weight: 100;
@@ -3045,12 +3067,12 @@ table tbody th {
   margin: 10px 0;
 }
 
-/* line 2832, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2844, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul .fullWidth {
   width: 90%;
 }
 
-/* line 2834, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2846, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul .fullWidth img {
   float: right;
   width: 45%;
@@ -3059,26 +3081,26 @@ table tbody th {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 2834, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2846, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .villageWrap ul .fullWidth img {
     width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 2845, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2857, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .villageWrap ul .fullWidth p {
   width: 90% !important;
 }
 
-/* line 2862, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2874, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap h1 {
   text-transform: uppercase;
   font-size: 2em;
   padding: 0 0 30px 15px !important;
 }
 
-/* line 2869, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2881, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap {
   position: relative;
   display: block;
@@ -3086,7 +3108,7 @@ table tbody th {
   margin-bottom: 60px;
 }
 
-/* line 2876, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2888, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap h3 {
   margin-left: 0px !important;
   font-size: 1.5em;
@@ -3094,24 +3116,25 @@ table tbody th {
   margin-top: 1.5em;
 }
 
-/* line 2883, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2895, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap h4 {
   text-transform: uppercase;
   margin-bottom: 5px;
+  display: none !important;
 }
 
-/* line 2888, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2901, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .topMargin {
   margin-top: 30px;
 }
 
-/* line 2892, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2905, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .eventCategory {
   font-weight: 900;
   text-transform: uppercase;
 }
 
-/* line 2898, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2911, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem {
   width: 98%;
   position: relative;
@@ -3121,7 +3144,7 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 2898, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2911, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem {
     border-bottom: 1px solid #ccc;
     margin-bottom: 15px;
@@ -3129,7 +3152,7 @@ table tbody th {
   }
 }
 
-/* line 2911, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2924, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTitle {
   position: relative;
   display: inline-block;
@@ -3138,14 +3161,14 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 2911, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2924, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTitle {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 2925, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2938, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTime {
   position: relative;
   display: inline-block;
@@ -3155,27 +3178,27 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 2925, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 2938, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem .seminarTime {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 2938, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2951, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .seminarScheduleWrap .seminarCatWrap .seminarItem p {
   display: none !important;
   height: 1px !important;
 }
 
-/* line 2954, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2967, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap h1 {
   text-transform: uppercase;
   font-size: 3em;
   padding: 0 0 30px 15px !important;
 }
 
-/* line 2961, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2974, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap {
   position: relative;
   display: block;
@@ -3183,7 +3206,7 @@ table tbody th {
   margin-bottom: 60px;
 }
 
-/* line 2968, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2981, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap h3 {
   margin-left: 0px !important;
   font-size: 1.5em;
@@ -3191,24 +3214,24 @@ table tbody th {
   margin-top: 1.5em;
 }
 
-/* line 2975, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2988, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap h4 {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
-/* line 2980, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2993, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .topMargin {
   margin-top: 30px;
 }
 
-/* line 2984, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 2997, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventCategory {
   font-weight: 900;
   text-transform: uppercase;
 }
 
-/* line 2990, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3003, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem {
   width: 98%;
   position: relative;
@@ -3218,7 +3241,7 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 2990, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 3003, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem {
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
@@ -3226,7 +3249,7 @@ table tbody th {
   }
 }
 
-/* line 3003, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3016, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventTitle {
   position: relative;
   display: inline-block;
@@ -3236,14 +3259,14 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 3003, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 3016, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventTitle {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 3016, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3029, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventLocation {
   position: relative;
   display: inline-block;
@@ -3253,14 +3276,14 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 3016, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 3029, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventLocation {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 3029, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3042, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem .eventTime {
   position: relative;
   display: inline-block;
@@ -3270,43 +3293,67 @@ table tbody th {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 3029, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  /* line 3042, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
   .entry-content .scheduleWrap .dayWrap .eventItem .eventTime {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 3042, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3055, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .scheduleWrap .dayWrap .eventItem p {
   display: none !important;
   height: 1px !important;
 }
 
-/* line 3066, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3074, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+.entry-content .mapWrap {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* line 3082, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+.entry-content .mapWrap iframe {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+}
+
+@media screen and (max-width: 450px) {
+  /* line 3082, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+  .entry-content .mapWrap iframe {
+    min-height: 450px;
+  }
+}
+
+/* line 3108, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content ul {
   padding: 0 0 1.5em 3em;
 }
 
-/* line 3069, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3111, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content ul li {
   font-size: .9em;
   list-style: square;
 }
 
-/* line 3076, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3118, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dl {
   padding: 0 0 1.5em 3em;
 }
 
-/* line 3079, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3121, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dl dt {
   font-size: 1em;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-/* line 3085, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3127, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dl dd {
   font-size: .9em;
   font-weight: 100;
@@ -3315,7 +3362,7 @@ table tbody th {
   max-width: 650px;
 }
 
-/* line 3092, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3134, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dl dd a {
   padding: 3px 10px;
   border: 1px solid #171717;
@@ -3328,7 +3375,7 @@ table tbody th {
   font-size: .9em;
 }
 
-/* line 3104, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3146, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dl dd a:hover {
   padding: 3px 10px;
   border: 1px solid #171717;
@@ -3340,14 +3387,14 @@ table tbody th {
   transition: all .5s;
 }
 
-/* line 3123, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3165, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #999;
   margin-bottom: 1.5em;
 }
 
-/* line 3128, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3170, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -3356,40 +3403,40 @@ table tbody th {
   letter-spacing: 1px;
 }
 
-/* line 3137, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3179, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #999;
 }
 
-/* line 3140, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3182, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #ccc;
 }
 
-/* line 3145, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3187, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #999;
 }
 
-/* line 3149, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3191, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
 
-/* line 3154, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3196, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content th {
   background-color: #ccc;
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
 }
 
-/* line 3159, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3201, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
 
-/* line 3164, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3206, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -3398,7 +3445,7 @@ table tbody th {
   color: #ccc;
 }
 
-/* line 3179, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3221, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
@@ -3406,14 +3453,14 @@ table tbody th {
   margin-bottom: 1.5em;
 }
 
-/* line 3186, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3228, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
 
-/* line 3196, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3238, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -3423,7 +3470,7 @@ table tbody th {
   height: auto;
 }
 
-/* line 3205, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3247, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .entry-content pre {
   background: #000;
   color: #ccc;
@@ -3434,7 +3481,7 @@ table tbody th {
 }
 
 /* end .entry-content */
-/* line 3216, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3258, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
@@ -3442,14 +3489,14 @@ table tbody th {
   /* images inside wp-caption */
 }
 
-/* line 3222, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3264, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
 
-/* line 3228, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3270, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -3460,7 +3507,7 @@ table tbody th {
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 3259, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3301, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .tags {
   margin: 0;
 }
@@ -3468,12 +3515,12 @@ table tbody th {
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 3276, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3318, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 3293, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3335, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .no-widgets {
   background-color: #FFF;
   padding: 1.5em;
@@ -3486,7 +3533,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 3306, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3348, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer {
   text-transform: uppercase;
   color: #ccc;
@@ -3494,14 +3541,14 @@ FOOTER STYLES
   display: block;
 }
 
-/* line 3312, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3354, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .gridWrap {
   background: black !important;
   padding: 15px;
   height: auto;
 }
 
-/* line 3318, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3360, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks {
   float: right;
   width: 100%;
@@ -3509,7 +3556,7 @@ FOOTER STYLES
   display: inline-block;
 }
 
-/* line 3324, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3366, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails {
   width: 30%;
   height: 100%;
@@ -3518,19 +3565,19 @@ FOOTER STYLES
   float: left;
 }
 
-/* line 3331, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3373, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap {
   padding-top: 10px;
   display: inline-block;
 }
 
-/* line 3335, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3377, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap svg {
   width: 90%;
   max-width: 250px;
 }
 
-/* line 3340, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3382, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 {
   display: inline-block;
   vertical-align: top;
@@ -3543,17 +3590,17 @@ FOOTER STYLES
   color: white !important;
 }
 
-/* line 3351, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3393, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerEvent {
   letter-spacing: 0px;
 }
 
-/* line 3356, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3398, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap h1 .headerAcademy {
   letter-spacing: -4px;
 }
 
-/* line 3361, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3403, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails .logoWrap .logo {
   display: inline-block;
   width: 90px;
@@ -3561,7 +3608,7 @@ FOOTER STYLES
   margin-top: -4px;
 }
 
-/* line 3369, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3411, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks .footerDetails h3 {
   font-weight: 400;
   color: white;
@@ -3571,13 +3618,13 @@ FOOTER STYLES
   margin-top: 0px;
 }
 
-/* line 3380, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3422, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks ul {
   width: 65%;
   float: right;
 }
 
-/* line 3384, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3426, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks ul a {
   text-decoration: none;
   color: white;
@@ -3585,18 +3632,18 @@ FOOTER STYLES
   font-size: .7em;
 }
 
-/* line 3391, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3433, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .footerLinks ul li {
   display: inline-block;
   width: 190px;
 }
 
-/* line 3398, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3440, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap {
   padding: 30px 0;
 }
 
-/* line 3401, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3443, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap h3 {
   text-transform: uppercase;
   font-weight: 100;
@@ -3605,12 +3652,12 @@ FOOTER STYLES
   color: white !important;
 }
 
-/* line 3409, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3451, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul {
   text-align: center;
 }
 
-/* line 3412, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3454, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul a {
   display: inline-block;
   width: 130px;
@@ -3619,49 +3666,49 @@ FOOTER STYLES
   margin: .5em .5em;
 }
 
-/* line 3421, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3463, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul li {
   width: 100%;
   height: 100%;
   list-style: none;
 }
 
-/* line 3427, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3469, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul .arcteryx {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_arc.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
 
-/* line 3433, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3475, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul .montblanc {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_montblanc.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
 
-/* line 3439, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3481, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul .gore {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_gore.png") no-repeat;
   background-position: center -10px;
   background-size: 140px;
 }
 
-/* line 3445, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3487, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul .petzl {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png") no-repeat;
   background-position: center 0px;
   background-size: 110px;
 }
 
-/* line 3451, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3493, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer .sponsorWrap ul .msr {
   background: url("http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png") no-repeat;
   background-position: center 0px;
   background-size: 120px;
 }
 
-/* line 3459, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
+/* line 3501, C:/xampp/htdocs/academywp/wp-content/themes/academy/library/scss/_base.scss */
 .footer p {
   font-weight: 900;
   font-size: .8em;
