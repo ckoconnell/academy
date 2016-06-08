@@ -1433,6 +1433,21 @@ HOMEPAGE STYLES
           }
         }
 
+        .homeImgCleanup {
+          width: 55%;
+          height: 100%;
+          float: right;
+          background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/06/homeCleanup.jpg') no-repeat;
+          background-size: cover;
+          background-position: 20% bottom;
+
+          @media screen and (max-width: 520px) {
+            width: 100%;
+            height: 200px;
+            background-position: 20% bottom;
+          }
+        }
+
         .homeContent {
           width: 40%;
           float: left;
@@ -3488,6 +3503,61 @@ FOOTER STYLES
         background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_petzl.png') no-repeat;
         background-position: center 0px;
         background-size: 110px;
+      }
+
+      .msr {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png') no-repeat;
+        background-position: center 0px;
+        background-size: 120px;
+      }
+
+      .lyo {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_lyo.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+      .peak {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_peak.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+      .suunto {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_suunto.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+      .nomadic {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_nomadic.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+      .mdo {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_mdo.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+
+      .eoca {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/05/sponsors_eoca.png') no-repeat;
+        background-position: center 0px;
+        background-size: 100px;
+      }
+
+      .msr {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png') no-repeat;
+        background-position: center 0px;
+        background-size: 120px;
+      }
+
+      .msr {
+        background: url('http://chamonix.arcteryxacademy.com/wp-content/uploads/2016/01/sponsor_msr.png') no-repeat;
+        background-position: center 0px;
+        background-size: 120px;
       }
 
       .msr {
